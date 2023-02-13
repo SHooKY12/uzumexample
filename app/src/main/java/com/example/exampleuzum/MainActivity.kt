@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
+import android.view.View
 import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
@@ -28,10 +30,14 @@ class MainActivity : AppCompatActivity() {
         topAnim = AnimationUtils.loadAnimation(this, R.anim.top_anim)
         bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_anim)
         progressBar = findViewById(R.id.progresssBar)
+        progressBar.visibility = View.GONE
         imageView = findViewById(R.id.uzum_logo)
         imageView.animation = topAnim
 
-        Handler().postDelayed(
+        Handler(Looper.getMainLooper()).postDelayed({
+            progressBar.visibility = View.VISIBLE
+        }, 1000)
+        Handler(Looper.getMainLooper()).postDelayed(
             {
                 startActivity(Intent(this, MainPage::class.java))
                 finish()
