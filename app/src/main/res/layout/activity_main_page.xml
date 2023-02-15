@@ -27,15 +27,24 @@
         android:fitsSystemWindows="true">
 
 
+<<<<<<< Updated upstream
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:ignore="MissingConstraints" />
+=======
+
+
+>>>>>>> Stashed changes
 
             <androidx.appcompat.widget.Toolbar
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:titleTextColor="@color/white" />
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView

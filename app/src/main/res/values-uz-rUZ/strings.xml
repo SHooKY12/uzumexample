@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">ExampleUzum</string>
+    <string name="searchHint">Maxsulot va toifalarni qidirish</string>
+    <string name="navBottomPopular">Mashhur</string>
+    <string name="navBottomNewest">Yangi</string>
+    <string name="navBottomSale">Katta sotuvlar</string>
 </resources>

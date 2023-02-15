@@ -1,7 +1,6 @@
 package com.example.exampleuzum
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -11,10 +10,10 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.ProgressBar
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-    val SPLASH_SCREEN = 5000
-    private lateinit var bottomAnim: Animation
+    val SPLASH_SCREEN = 2000
     private lateinit var topAnim: Animation
     private lateinit var imageView: ImageView
     private lateinit var progressBar: ProgressBar
@@ -28,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
         topAnim = AnimationUtils.loadAnimation(this, R.anim.top_anim)
-        bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_anim)
         progressBar = findViewById(R.id.progresssBar)
         progressBar.visibility = View.GONE
         imageView = findViewById(R.id.uzum_logo)
