@@ -5,7 +5,9 @@
     <string name="navBottomPopular">Mashhur</string>
     <string name="navBottomNewest">Yangi</string>
     <string name="navBottomSale">Katta sotuvlar</string>
-    <string name="search">Qidirish</string>
-    <string name="profile">Profil</string>
-    <string name="home">Uyga</string>
+    <string name="menuIconSearch">Qidirish</string>
+    <string name="menuIconProfile">Profil</string>
+    <string name="menuIconHome">Uyga</string>
+    <string name="menuIconWish">Istak</string>
+    <string name="menuIconBasket">Savat</string>
 </resources>

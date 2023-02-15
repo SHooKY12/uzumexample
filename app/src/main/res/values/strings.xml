@@ -4,7 +4,9 @@
     <string name="navBottomSale">Распродажа</string>
     <string name="navBottomPopular">Популярные</string>
     <string name="navBottomNewest">Новинки</string>
-    <string name="search">Поиск</string>
-    <string name="profile">Профиль</string>
-    <string name="home">Домой</string>
+    <string name="menuIconSearch">Поиск</string>
+    <string name="menuIconProfile">Профиль</string>
+    <string name="menuIconHome">Домой</string>
+    <string name="menuIconWish">Желания</string>
+    <string name="menuIconBasket">Корзина</string>
 </resources>
