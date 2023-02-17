@@ -11,6 +11,7 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.widget.NestedScrollView
 
 class MainActivity : AppCompatActivity() {
     val SPLASH_SCREEN = 2000
