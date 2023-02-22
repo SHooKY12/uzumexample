@@ -24,14 +24,15 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways">
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvBanners"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:ignore="MissingConstraints" />
 
-            <!--            <androidx.appcompat.widget.Toolbar-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="?attr/actionBarSize"-->
-            <!--                app:titleTextColor="@color/white" />-->
+                        <androidx.appcompat.widget.Toolbar
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            app:titleTextColor="@color/white" />
 
             <SearchView
                 android:id="@+id/SearchViewInMainPage"
@@ -79,12 +80,12 @@
         </com.google.android.material.tabs.TabLayout>
     </androidx.core.widget.NestedScrollView>
 
-    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
-    <!--        android:id="@+id/bottom_navigation_view"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        app:labelVisibilityMode="labeled"-->
-    <!--        android:layout_gravity="bottom"-->
-    <!--        app:menu="@menu/bottomnavigationviewmenu" />-->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottomnavigationviewmenu" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

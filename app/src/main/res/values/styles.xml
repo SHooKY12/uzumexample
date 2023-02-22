@@ -5,4 +5,9 @@
         <item name="android:background">#FFFFFF</item>
     </style>
 
+    <style name="roundImageVIEW">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="color">@color/white</item>
+    </style>
 </resources>
