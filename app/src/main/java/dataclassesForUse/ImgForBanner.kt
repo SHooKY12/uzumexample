@@ -1,3 +1,5 @@
 package dataclassesForUse
 
-data class ImgForBanner(val imgId : Int, val name: String)
+import android.graphics.drawable.Drawable
+
+data class ImgForBanner(var imgDrawable : Drawable, var name: String? = null)
