@@ -20,12 +20,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        setContentView(R.layout.activity_main)
         window.setFlags(
             WindowManager.LayoutParams
                 .FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-        setContentView(R.layout.activity_main)
         supportActionBar?.hide()
         topAnim = AnimationUtils.loadAnimation(this, R.anim.top_anim)
         progressBar = findViewById(R.id.progresssBar)

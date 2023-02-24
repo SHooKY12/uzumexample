@@ -8,6 +8,7 @@ import android.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.OnFlingListener
 import androidx.recyclerview.widget.SnapHelper
 import dataclassesForUse.ImgForBanner
 
@@ -40,10 +41,21 @@ class MainPage : AppCompatActivity() {
         recyclerView.adapter = adapter
         val snapHelper = LinearSnapHelper()
         snapHelper.attachToRecyclerView(recyclerView)
-        recyclerView.smoothScrollBy(5,0)
 
-
+        recyclerView.onFlingListener = (object: RecyclerView.OnFlingListener(){
+            override fun onFling(velocityX: Int, velocityY: Int): Boolean {
+                recyclerView.smoothScrollBy(5,0)
+               return true
+            }
+        })
     }
+
+
+//        recyclerView.addOnScrollListener()
+
+
+
+
 
     @SuppressLint("UseCompatLoadingForDrawables")
     private fun initArrayImgs() {
@@ -51,7 +63,17 @@ class MainPage : AppCompatActivity() {
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img1), "img1"))
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img6), "img2"))
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img3), "img3"))
-//        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img4), "img4"))
-//        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img5), "img5"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img4), "img4"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img5), "img5"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img7), "img1"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img8), "img2"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img9), "img3"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img10), "img4"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img11), "img5"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img12), "img1"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img13), "img2"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img3), "img3"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img4), "img4"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img5), "img5"))
     }
 }
