@@ -42,8 +42,8 @@ class RecylerInMainPageSalesAdapter :
         fun onBind(model: ImgForBanner, int: Int) {
 //            imageView.setImageDrawable(model.imgDrawable)
             imageView.load(model.imgDrawable) {
-                scale(Scale.FIT)
-                transformations(RoundedCornersTransformation(16f))
+                scale(Scale.FILL)
+                transformations(RoundedCornersTransformation(40f))
             }
 
         }

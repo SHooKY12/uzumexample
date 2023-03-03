@@ -9,4 +9,6 @@
     <string name="menuIconHome">Домой</string>
     <string name="menuIconWish">Желания</string>
     <string name="menuIconBasket">Корзина</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello From Fragment 2 </string>
 </resources>

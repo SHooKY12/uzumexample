@@ -10,6 +10,7 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.ProgressBar
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.NestedScrollView
 
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         window.setFlags(
             WindowManager.LayoutParams
                 .FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN

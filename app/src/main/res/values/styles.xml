@@ -7,7 +7,7 @@
 
     <style name="roundImageVIEW">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">20dp</item>
+        <item name="cornerSize">4dp</item>
         <item name="color">@color/white</item>
     </style>
     <style name="MyTabLayoutTextAppearance" parent="TextAppearance.Design.Tab">

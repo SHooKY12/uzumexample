@@ -7,32 +7,37 @@
     android:background="@color/white"
     tools:context=".MainPage">
 
+    <!-- AppBarLayout -->
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBar"
-        android:layout_width="match_parent"
         style="@style/MyAppBarLayoutStyle"
-        android:layout_height="240dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fitsSystemWindows="true">
 
+        <!-- CollapsingToolbarLayout -->
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="#FFFFFF"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways">
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
 
+            <!-- RecyclerView для баннеров -->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvBanners"
-                android:layout_marginTop="60dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
                 tools:ignore="MissingConstraints" />
 
-                        <androidx.appcompat.widget.Toolbar
-                            android:layout_width="match_parent"
-                            android:layout_height="?attr/actionBarSize"
-                            app:titleTextColor="@color/white" />
+            <!-- Toolbar -->
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:titleTextColor="@color/white" />
 
+            <!-- Поле для поиска -->
             <SearchView
                 android:id="@+id/SearchViewInMainPage"
                 android:layout_width="match_parent"
@@ -46,47 +51,52 @@
                 android:queryBackground="@android:color/transparent"
                 android:queryHint="@string/searchHint"
                 app:layout_collapseMode="pin"
-                app:titleTextColor="@color/white"/>
-
+                app:titleTextColor="@color/white" />
         </com.google.android.material.appbar.CollapsingToolbarLayout>
-    </com.google.android.material.appbar.AppBarLayout>
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="490dp"
-        android:padding="20dp"
-        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
-
+        <!-- TabLayout -->
         <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tableLayoutInMainPage"
             android:layout_width="match_parent"
-            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance">
 
+            <!-- Элементы TabLayout -->
             <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:text="@string/navBottomSale" />
 
             <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/navBottomPopular" />
 
             <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/navBottomNewest" />
 
         </com.google.android.material.tabs.TabLayout>
-    </androidx.core.widget.NestedScrollView>
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_navigation_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:labelVisibilityMode="labeled"
-            android:layout_gravity="bottom"
-            app:menu="@menu/bottomnavigationviewmenu" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- ViewPager2 -->
+    <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/placeHolder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_below="@id/tableLayoutInMainPage" />
+
+              <!-- BottomNavigationView -->
+<!--            <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--                android:id="@+id/bottom_navigation_view"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="bottom"-->
+<!--                app:labelVisibilityMode="labeled"-->
+<!--                app:menu="@menu/bottomnavigationviewmenu" />-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

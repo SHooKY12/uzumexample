@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragmentsPages.FragmentNewestInMainPage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/newestTextView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginStart="60dp"
+        android:textColor="@color/black"
+        android:text="Hello From Fragment 3"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

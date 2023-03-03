@@ -1,29 +1,57 @@
 package com.example.exampleuzum
 
+import android.R.attr
 import android.annotation.SuppressLint
-import android.graphics.Bitmap
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.SearchView
+import android.widget.TableLayout
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.OnFlingListener
-import androidx.recyclerview.widget.SnapHelper
+import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import dataclassesForUse.ImgForBanner
+import fragmentsPages.FragmentNewestInMainPage
+import fragmentsPages.FragmentSales
+import fragmentsPages.FrangmentPopularInMainPage
+
 
 class MainPage : AppCompatActivity() {
+    // Список фрагментов, используемых в ViewPager2
+    private val tableItems =
+        listOf(
+            FragmentSales.newInstance(),
+            FrangmentPopularInMainPage.newInstance(),
+            FragmentNewestInMainPage.newInstance()
+        )
     private lateinit var recyclerView: RecyclerView
+    // Список названий для каждого таба в TabLayout
+    private var listForTablayoutText = listOf<String>("Распродажа", "Популярные", "Новинки")
+    private lateinit var viewPage2: ViewPager2
+    private lateinit var tableLayoit: com.google.android.material.tabs.TabLayout
     private var imgList = mutableListOf<ImgForBanner>()
+    // Адаптер для RecyclerView с баннерами
     private val adapter = RecylerInMainPageSalesAdapter()
     private lateinit var searchView: SearchView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_page)
-        recyclerView = findViewById(R.id.rvBanners)
+
+        // Добавления картинов в список для баннера
         initArrayImgs()
+        // Инициализация RecyclerView для баннеров
+        recyclerView = findViewById(R.id.rvBanners)
         adapter.setImages(imgList)
         bindRecycler()
+
+        // Инициализация ViewPager2 и TabLayout
+        viewPage2 = findViewById(R.id.placeHolder)
+        tableLayoit = findViewById(R.id.tableLayoutInMainPage)
+        initTablayout()
+        // Инициализация SearchView
         searchView = findViewById(R.id.SearchViewInMainPage)
         searchView.isFocusable = false
         searchView.setOnQueryTextFocusChangeListener { v, hasFocus ->
@@ -33,35 +61,45 @@ class MainPage : AppCompatActivity() {
                 searchView.setBackgroundResource(R.drawable.searchview_background)
             }
         }
+    }
+    // Инициализация TabLayout и ViewPager2
+    private fun initTablayout() {
+        // Создание адаптера для ViewPager2
+        val adapterTabl = TableLayoutAdapter(this, tableItems)
+        viewPage2.adapter = adapterTabl
 
+        // Установка настроек TabLayout
+        tableLayoit.tabGravity = TabLayout.GRAVITY_FILL
+
+        // Привязка TabLayout к ViewPager2
+        TabLayoutMediator(tableLayoit, viewPage2) { tab, pos ->
+            tab.text = listForTablayoutText[pos]
+        }.attach()
     }
 
+    // Привязка RecyclerView для баннеров
     private fun bindRecycler() {
-        recyclerView.layoutManager = LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false)
+        recyclerView.layoutManager =
+            LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         recyclerView.adapter = adapter
+
+        // Установка LinearSnapHelper для плавной прокрутки баннеров
         val snapHelper = LinearSnapHelper()
         snapHelper.attachToRecyclerView(recyclerView)
 
-        recyclerView.onFlingListener = (object: RecyclerView.OnFlingListener(){
+        // Установка onFlingListener для плавной прокрутки баннеров
+        recyclerView.onFlingListener = (object : RecyclerView.OnFlingListener() {
             override fun onFling(velocityX: Int, velocityY: Int): Boolean {
-                recyclerView.smoothScrollBy(5,0)
-               return true
+                recyclerView.smoothScrollBy(5, 0)
+                return true
             }
         })
     }
-
-
-//        recyclerView.addOnScrollListener()
-
-
-
-
-
+    // Инициализация списка изображений для баннеров
     @SuppressLint("UseCompatLoadingForDrawables")
     private fun initArrayImgs() {
-
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img1), "img1"))
-        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img6), "img2"))
+        imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img2), "img2"))
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img3), "img3"))
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img4), "img4"))
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img5), "img5"))
