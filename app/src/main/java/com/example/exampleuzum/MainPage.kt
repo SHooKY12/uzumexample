@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
@@ -27,11 +28,14 @@ class MainPage : AppCompatActivity() {
             FragmentNewestInMainPage.newInstance()
         )
     private lateinit var recyclerView: RecyclerView
+
     // Список названий для каждого таба в TabLayout
     private var listForTablayoutText = listOf<String>("Распродажа", "Популярные", "Новинки")
     private lateinit var viewPage2: ViewPager2
+    private lateinit var swiperRefresher: SwipeRefreshLayout
     private lateinit var tableLayoit: com.google.android.material.tabs.TabLayout
     private var imgList = mutableListOf<ImgForBanner>()
+
     // Адаптер для RecyclerView с баннерами
     private val adapter = RecylerInMainPageSalesAdapter()
     private lateinit var searchView: SearchView
@@ -46,7 +50,9 @@ class MainPage : AppCompatActivity() {
         recyclerView = findViewById(R.id.rvBanners)
         adapter.setImages(imgList)
         bindRecycler()
-
+        // Инициализация SwipeRefreshLayout и установка Listener
+        swiperRefresher = findViewById(R.id.swiperRefresher)
+        instalListenerOnSwipeRefresh()
         // Инициализация ViewPager2 и TabLayout
         viewPage2 = findViewById(R.id.placeHolder)
         tableLayoit = findViewById(R.id.tableLayoutInMainPage)
@@ -62,6 +68,18 @@ class MainPage : AppCompatActivity() {
             }
         }
     }
+
+    private fun instalListenerOnSwipeRefresh() {
+        swiperRefresher.setOnRefreshListener {
+
+            // Выполнить действия для обновления вашего View
+            // Например, загрузить новые данные из сети и обновить список
+
+            swiperRefresher.isRefreshing = false
+        }
+
+    }
+
     // Инициализация TabLayout и ViewPager2
     private fun initTablayout() {
         // Создание адаптера для ViewPager2
@@ -86,15 +104,16 @@ class MainPage : AppCompatActivity() {
         // Установка LinearSnapHelper для плавной прокрутки баннеров
         val snapHelper = LinearSnapHelper()
         snapHelper.attachToRecyclerView(recyclerView)
-
         // Установка onFlingListener для плавной прокрутки баннеров
         recyclerView.onFlingListener = (object : RecyclerView.OnFlingListener() {
             override fun onFling(velocityX: Int, velocityY: Int): Boolean {
-                recyclerView.smoothScrollBy(5, 0)
+                if (velocityX > 0) recyclerView.smoothScrollBy(1200, 0)
+                else  recyclerView.smoothScrollBy(-1200, 0)
                 return true
             }
         })
     }
+
     // Инициализация списка изображений для баннеров
     @SuppressLint("UseCompatLoadingForDrawables")
     private fun initArrayImgs() {
