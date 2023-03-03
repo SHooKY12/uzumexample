@@ -89,7 +89,7 @@
                 android:layout_height="match_parent"
                app:layout_behavior="@string/appbar_scrolling_view_behavior"
                 android:layout_below="@id/tableLayoutInMainPage" />
-
+q
               <!-- BottomNavigationView -->
 <!--            <com.google.android.material.bottomnavigation.BottomNavigationView-->
 <!--                android:id="@+id/bottom_navigation_view"-->
