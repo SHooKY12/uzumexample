@@ -12,7 +12,8 @@ import com.example.exampleuzum.databinding.RecyclerForRetrofirBinding
 import dataclassesForUse.Product
 
 class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHolder>() {
-    var listProducts = mutableListOf<Product>()
+
+    private var listProducts = mutableListOf<Product>()
 
     fun setImage(item: List<Product>) {
         listProducts.clear()
@@ -35,12 +36,44 @@ class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHo
     }
 
     class MainProductHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val images = mutableListOf<String>(
+            "https://drive.google.com/file/d/1AVqV2YZMIuQHZmiwlZb1l38Vdh9CGBKT/view?usp=share_link",
+            "https://drive.google.com/file/d/1fKGciRpy8f4iJDhlaAjXP_PYVtDrPoP3/view?usp=share_link",
+            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
+            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
+            "https://drive.google.com/file/d/1AVqV2YZMIuQHZmiwlZb1l38Vdh9CGBKT/view?usp=share_link",
+            "https://drive.google.com/file/d/13TEPPK--vErzTYnLHCLol09WwG7cMNcD/view?usp=share_link",
+            "https://drive.google.com/file/d/1cpzLYY9ciUaa7NC91qDZ-wsmBOUUQXaS/view?usp=share_link",
+            "https://drive.google.com/file/d/109Zd0v2lG3SyK3B5p8c8lddSFa6jbl56/view?usp=share_link",
+            "https://drive.google.com/file/d/1UANCykk3u7DxpXbtRDrxLdO2XodrDNsy/view?usp=share_link",
+            "https://drive.google.com/file/d/1tpa8fvTgxt6yZbFiPIH0cTdVJh3YNryU/view?usp=share_link",
+            "https://drive.google.com/file/d/1sboBwcGkOt-bZiFZNw5QV8iY6_8_ldhG/view?usp=share_link",
+            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
+            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
+            "https://drive.google.com/file/d/13TEPPK--vErzTYnLHCLol09WwG7cMNcD/view?usp=share_link",
+            "https://drive.google.com/file/d/1cpzLYY9ciUaa7NC91qDZ-wsmBOUUQXaS/view?usp=share_link",
+            "https://drive.google.com/file/d/109Zd0v2lG3SyK3B5p8c8lddSFa6jbl56/view?usp=share_link",
+            "https://drive.google.com/file/d/1UANCykk3u7DxpXbtRDrxLdO2XodrDNsy/view?usp=share_link",
+            "https://drive.google.com/file/d/1tpa8fvTgxt6yZbFiPIH0cTdVJh3YNryU/view?usp=share_link",
+            "https://drive.google.com/file/d/1sboBwcGkOt-bZiFZNw5QV8iY6_8_ldhG/view?usp=share_link",
+            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
+            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
+            "https://drive.google.com/file/d/13TEPPK--vErzTYnLHCLol09WwG7cMNcD/view?usp=share_link",
+            "https://drive.google.com/file/d/1cpzLYY9ciUaa7NC91qDZ-wsmBOUUQXaS/view?usp=share_link",
+            "https://drive.google.com/file/d/109Zd0v2lG3SyK3B5p8c8lddSFa6jbl56/view?usp=share_link",
+            "https://drive.google.com/file/d/1UANCykk3u7DxpXbtRDrxLdO2XodrDNsy/view?usp=share_link",
+            "https://drive.google.com/file/d/1tpa8fvTgxt6yZbFiPIH0cTdVJh3YNryU/view?usp=share_link",
+            "https://drive.google.com/file/d/1sboBwcGkOt-bZiFZNw5QV8iY6_8_ldhG/view?usp=share_link",
+            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
+            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
+            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link"
+        )
         private val binding = RecyclerForRetrofirBinding.bind(itemView)
         fun onBind(model: Product, position: Int) {
-            val rassrochkaForTextView = String.format("%.2f", model.price/12)
+            val rassrochkaForTextView = String.format("%.2f", model.price / 12)
             binding.oldPrice.text = model.price.toString()
             binding.oldPrice.paintFlags = binding.oldPrice.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
-            binding.ImageOfProduct.load(model.images) {
+            binding.ImageOfProduct.load(model.thumbnail) {
                 scale(Scale.FILL)
                 transformations(RoundedCornersTransformation(40f))
             }
