@@ -14,7 +14,7 @@
         android:title="@string/menuIconBasket" />
     <item
         android:id="@+id/menu_wish"
-        android:icon="@drawable/ic_wish"
+        android:icon="@drawable/ic_wissh"
         android:title="@string/menuIconWish" />
     <item
         android:id="@+id/menu_profile"

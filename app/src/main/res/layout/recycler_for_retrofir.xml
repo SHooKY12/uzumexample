@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ImageOfProduct"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            tools:src="@drawable/uzum" />
+
+        <ImageButton
+            android:id="@+id/imageButtonInFrameWithImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/raund_in_main_imageview_for_buttonimage"
+            android:padding="6dp"
+            android:src="@drawable/heart_thin_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textRassrochkaInMainImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/pink_rounded_background_for_image"
+            android:padding="4dp"
+            android:text="@string/sale_in_button_in_imageview"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/desriotionOfProduct"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="Футболка Base Unisex, с коротким рукавом и большими подворотниками" />
+
+    <TextView
+        android:id="@+id/textViewRaiting"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="4dp"
+        android:textSize="12sp"
+        app:drawableLeftCompat="@drawable/star_svgrepo_com__1_"
+        app:drawableStartCompat="@drawable/star_svgrepo_com__1_"
+        tools:text="4.6 (11500 заказов)" />
+
+    <TextView
+        android:id="@+id/textRassrochka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/yellow_rounded_background"
+        android:textColor="#000000"
+        tools:text="2 470 сум/мес" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/oldPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="89 000 сум" />
+
+        <TextView
+            android:id="@+id/newPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/oldPrice"
+            tools:text="19 000 сум" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:background="@drawable/round_button"
+            android:padding="6dp"
+            android:src="@drawable/im_shopping_for_utton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

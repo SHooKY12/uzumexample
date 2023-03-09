@@ -17,6 +17,13 @@ import dataclassesForUse.ImgForBanner
 import fragmentsPages.FragmentNewestInMainPage
 import fragmentsPages.FragmentSales
 import fragmentsPages.FrangmentPopularInMainPage
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import okhttp3.internal.http.RetryAndFollowUpInterceptor
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.create
 
 
 class MainPage : AppCompatActivity() {
@@ -55,26 +62,15 @@ class MainPage : AppCompatActivity() {
         instalListenerOnSwipeRefresh()
         // Инициализация ViewPager2 и TabLayout
         viewPage2 = findViewById(R.id.placeHolder)
+        viewPage2.isUserInputEnabled = false
         tableLayoit = findViewById(R.id.tableLayoutInMainPage)
         initTablayout()
-        // Инициализация SearchView
-        searchView = findViewById(R.id.SearchViewInMainPage)
-        searchView.isFocusable = false
-        searchView.setOnQueryTextFocusChangeListener { v, hasFocus ->
-            if (hasFocus) {
-                searchView.setBackgroundResource(R.drawable.search_view_background_focused)
-            } else {
-                searchView.setBackgroundResource(R.drawable.searchview_background)
-            }
-        }
     }
 
     private fun instalListenerOnSwipeRefresh() {
         swiperRefresher.setOnRefreshListener {
-
             // Выполнить действия для обновления вашего View
             // Например, загрузить новые данные из сети и обновить список
-
             swiperRefresher.isRefreshing = false
         }
 
@@ -107,13 +103,12 @@ class MainPage : AppCompatActivity() {
         // Установка onFlingListener для плавной прокрутки баннеров
         recyclerView.onFlingListener = (object : RecyclerView.OnFlingListener() {
             override fun onFling(velocityX: Int, velocityY: Int): Boolean {
-                if (velocityX > 0) recyclerView.smoothScrollBy(1200, 0)
-                else  recyclerView.smoothScrollBy(-1200, 0)
+                if (velocityX > 0) recyclerView.smoothScrollBy(700, 0)
+                else recyclerView.smoothScrollBy(-700, 0)
                 return true
             }
         })
     }
-
     // Инициализация списка изображений для баннеров
     @SuppressLint("UseCompatLoadingForDrawables")
     private fun initArrayImgs() {
@@ -133,4 +128,6 @@ class MainPage : AppCompatActivity() {
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img4), "img4"))
         imgList.add(ImgForBanner(resources.getDrawable(R.drawable.img5), "img5"))
     }
+
+
 }

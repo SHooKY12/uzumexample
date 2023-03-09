@@ -11,4 +11,5 @@
     <string name="menuIconBasket">Корзина</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello From Fragment 2 </string>
+    <string name="sale_in_button_in_imageview">Распродажа</string>
 </resources>
