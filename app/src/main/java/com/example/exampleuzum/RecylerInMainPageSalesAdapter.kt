@@ -40,7 +40,6 @@ class RecylerInMainPageSalesAdapter :
     class SalesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val imageView: ShapeableImageView = itemView.findViewById(R.id.imgView)
         fun onBind(model: ImgForBanner, int: Int) {
-//            imageView.setImageDrawable(model.imgDrawable)
             imageView.load(model.imgDrawable) {
                 scale(Scale.FILL)
                 transformations(RoundedCornersTransformation(40f))

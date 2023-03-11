@@ -18,15 +18,16 @@
             android:layout_height="250dp"
             tools:src="@drawable/uzum" />
 
-        <ImageButton
-            android:id="@+id/imageButtonInFrameWithImageView"
+        <CheckBox
+            android:id="@+id/checkBoxInFrameWithImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="125dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="-4dp"
+            android:button="@drawable/selector_wishlist_item"
             android:background="@drawable/raund_in_main_imageview_for_buttonimage"
+            app:useMaterialThemeColors="false"
             android:padding="6dp"
-            android:src="@drawable/heart_thin_icon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

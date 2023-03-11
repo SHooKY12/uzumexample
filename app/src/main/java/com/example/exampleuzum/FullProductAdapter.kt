@@ -1,14 +1,17 @@
 package com.example.exampleuzum
 
 import android.graphics.Paint
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.size.Scale
 import coil.transform.RoundedCornersTransformation
 import com.example.exampleuzum.databinding.RecyclerForRetrofirBinding
+import dataclassesForUse.ListsForSaveSelectedAndLookedProducts
 import dataclassesForUse.Product
 
 class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHolder>() {
@@ -36,39 +39,19 @@ class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHo
     }
 
     class MainProductHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val images = mutableListOf<String>(
-            "https://drive.google.com/file/d/1AVqV2YZMIuQHZmiwlZb1l38Vdh9CGBKT/view?usp=share_link",
-            "https://drive.google.com/file/d/1fKGciRpy8f4iJDhlaAjXP_PYVtDrPoP3/view?usp=share_link",
-            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
-            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
-            "https://drive.google.com/file/d/1AVqV2YZMIuQHZmiwlZb1l38Vdh9CGBKT/view?usp=share_link",
-            "https://drive.google.com/file/d/13TEPPK--vErzTYnLHCLol09WwG7cMNcD/view?usp=share_link",
-            "https://drive.google.com/file/d/1cpzLYY9ciUaa7NC91qDZ-wsmBOUUQXaS/view?usp=share_link",
-            "https://drive.google.com/file/d/109Zd0v2lG3SyK3B5p8c8lddSFa6jbl56/view?usp=share_link",
-            "https://drive.google.com/file/d/1UANCykk3u7DxpXbtRDrxLdO2XodrDNsy/view?usp=share_link",
-            "https://drive.google.com/file/d/1tpa8fvTgxt6yZbFiPIH0cTdVJh3YNryU/view?usp=share_link",
-            "https://drive.google.com/file/d/1sboBwcGkOt-bZiFZNw5QV8iY6_8_ldhG/view?usp=share_link",
-            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
-            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
-            "https://drive.google.com/file/d/13TEPPK--vErzTYnLHCLol09WwG7cMNcD/view?usp=share_link",
-            "https://drive.google.com/file/d/1cpzLYY9ciUaa7NC91qDZ-wsmBOUUQXaS/view?usp=share_link",
-            "https://drive.google.com/file/d/109Zd0v2lG3SyK3B5p8c8lddSFa6jbl56/view?usp=share_link",
-            "https://drive.google.com/file/d/1UANCykk3u7DxpXbtRDrxLdO2XodrDNsy/view?usp=share_link",
-            "https://drive.google.com/file/d/1tpa8fvTgxt6yZbFiPIH0cTdVJh3YNryU/view?usp=share_link",
-            "https://drive.google.com/file/d/1sboBwcGkOt-bZiFZNw5QV8iY6_8_ldhG/view?usp=share_link",
-            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
-            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
-            "https://drive.google.com/file/d/13TEPPK--vErzTYnLHCLol09WwG7cMNcD/view?usp=share_link",
-            "https://drive.google.com/file/d/1cpzLYY9ciUaa7NC91qDZ-wsmBOUUQXaS/view?usp=share_link",
-            "https://drive.google.com/file/d/109Zd0v2lG3SyK3B5p8c8lddSFa6jbl56/view?usp=share_link",
-            "https://drive.google.com/file/d/1UANCykk3u7DxpXbtRDrxLdO2XodrDNsy/view?usp=share_link",
-            "https://drive.google.com/file/d/1tpa8fvTgxt6yZbFiPIH0cTdVJh3YNryU/view?usp=share_link",
-            "https://drive.google.com/file/d/1sboBwcGkOt-bZiFZNw5QV8iY6_8_ldhG/view?usp=share_link",
-            "https://drive.google.com/file/d/1ox804kufiAkmTamMoAJLH7qJlTzLMUpS/view?usp=share_link",
-            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link",
-            "https://drive.google.com/file/d/1W0bgLDW2tVP4Y_8peTMmPdtfiR99Zqw0/view?usp=share_link"
+        private val resourceIdForWhiteHeartIcon = itemView.context.resources.getIdentifier(
+            "heart_thin_icon",
+            "drawable",
+            itemView.context.packageName
         )
-        private val binding = RecyclerForRetrofirBinding.bind(itemView)
+        private val resourceIdForRedHeartIcon = itemView.context.resources.getIdentifier(
+            "iv_in_button_clicked_red_heart",
+            "drawable",
+            itemView.context.packageName
+        )
+
+        private val saveClickedForWish = ListsForSaveSelectedAndLookedProducts()
+        private var binding = RecyclerForRetrofirBinding.bind(itemView)
         fun onBind(model: Product, position: Int) {
             val rassrochkaForTextView = String.format("%.2f", model.price / 12)
             binding.oldPrice.text = model.price.toString()
@@ -81,8 +64,37 @@ class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHo
             binding.desriotionOfProduct.text = model.title
             binding.textRassrochka.text = String.format("%s сум/мес", rassrochkaForTextView)
             binding.textViewRaiting.text =
-                String.format("%s (15000 заказов)", model.rating.toString())
+                String.format("%s (${model.stock} заказов)", model.rating.toString())
+            binding.checkBoxInFrameWithImageView.setOnCheckedChangeListener { buttonView, isChecked ->
+                if (isChecked) {
+                    saveClickedForWish.listForSAveCategories.add(model)
+                    Toast.makeText(
+                        itemView.context,
+                        "Checked and senden ${model.title}",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    Toast.makeText(
+                        itemView.context,
+                        "What in List ${saveClickedForWish.listForSAveCategories[0].title}",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                } else {
+                    saveClickedForWish.listForSAveCategories.remove(model)
+                    Toast.makeText(
+                        itemView.context,
+                        "Unchecked and deleted ${model.title}",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    Toast.makeText(
+                        itemView.context,
+                        "What in List Was Deleted ${
+                            saveClickedForWish.listForSAveCategories.getOrNull(1)
+                        }",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            }
+
         }
     }
-
 }
