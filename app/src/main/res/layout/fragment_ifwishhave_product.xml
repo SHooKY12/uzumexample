@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ImageOfProductInWishFrag"
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            tools:src="@drawable/uzum" />
+
+        <CheckBox
+            android:id="@+id/checkBoxInFrameWithImageViewnInWishFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="-4dp"
+            android:button="@drawable/selector_wishlist_item"
+            android:background="@drawable/raund_in_main_imageview_for_buttonimage"
+            app:useMaterialThemeColors="false"
+            android:padding="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/desriotionOfProductInWishFrag"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="Футболка Base Unisex, с коротким рукавом и большими подворотниками" />
+
+    <TextView
+        android:id="@+id/textViewRaitingInWishFrag"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="4dp"
+        android:textSize="12sp"
+        app:drawableLeftCompat="@drawable/star_svgrepo_com__1_"
+        app:drawableStartCompat="@drawable/star_svgrepo_com__1_"
+        tools:text="4.6 (11500 заказов)" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="42dp">
+
+        <TextView
+            android:id="@+id/oldPriceInWishFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="89 000 сум" />
+
+        <TextView
+            android:id="@+id/newPriceInWishFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/oldPriceInWishFrag"
+            tools:text="19 000 сум" />
+
+        <ImageButton
+            android:id="@+id/imageButtonInWishFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:background="@drawable/round_button"
+            android:padding="6dp"
+            android:src="@drawable/im_shopping_for_utton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
