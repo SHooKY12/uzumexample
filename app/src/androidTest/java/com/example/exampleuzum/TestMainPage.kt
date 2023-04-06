@@ -1,42 +1,43 @@
 package com.example.exampleuzum
+
 import android.Manifest
- import androidx.test.ext.junit.rules.ActivityScenarioRule
+import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.action.ViewActions.click
+import androidx.test.espresso.contrib.RecyclerViewActions
+import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.activityScenarioRule
 import androidx.test.rule.GrantPermissionRule
-import com.kaspersky.components.alluresupport.addAllureSupport
-import com.kaspersky.components.alluresupport.files.attachViewHierarchyToAllureReport
-import com.kaspersky.components.alluresupport.interceptors.step.AllureMapperStepInterceptor
-import com.kaspersky.components.alluresupport.withAllureSupport
+import com.example.exampleuzum.screens.ClickHeartForSave
+import com.example.exampleuzum.screens.RecyclerScreen
+import com.kaspersky.components.alluresupport.interceptors.testrun.DumpLogcatTestInterceptor
+import com.kaspersky.components.alluresupport.interceptors.testrun.ScreenshotTestInterceptor
+import com.kaspersky.components.alluresupport.withForcedAllureSupport
 import com.kaspersky.kaspresso.annotations.ScreenShooterTest
-import com.kaspersky.kaspresso.interceptors.watcher.testcase.TestRunWatcherInterceptor
+import com.kaspersky.kaspresso.interceptors.watcher.testcase.impl.views.DumpViewsInterceptor
 import com.kaspersky.kaspresso.kaspresso.Kaspresso
 import com.kaspersky.kaspresso.params.ScreenshotParams
 import com.kaspersky.kaspresso.params.VideoParams
 import com.kaspersky.kaspresso.testcases.api.testcase.TestCase
-import com.kaspersky.kaspresso.testcases.api.testcaserule.TestCaseRule
-import com.kaspersky.kaspresso.testcases.models.info.TestInfo
-
 import org.junit.Rule
 import org.junit.Test
-import java.io.File
 import java.util.*
 
 class TestMainPage : TestCase(
-    kaspressoBuilder = Kaspresso.Builder.simple(
+    kaspressoBuilder = Kaspresso.Builder.withForcedAllureSupport(
         customize = {
             videoParams = VideoParams(bitRate = 10_000_000)
             screenshotParams = ScreenshotParams(quality = 1)
         }
-    ).addAllureSupport().apply {
-        testRunWatcherInterceptors.apply {
-            add(object : TestRunWatcherInterceptor {
-                override fun onTestFinished(testInfo: TestInfo, success: Boolean) {
-                    viewHierarchyDumper.dumpAndApply("ViewHierarchy") { attachViewHierarchyToAllureReport() }
-                }
-            })
-        }
-        }
-            ){
+    ).apply {
+        testRunWatcherInterceptors.addAll(
+            listOf(
+                DumpLogcatTestInterceptor(logcatDumper),
+                ScreenshotTestInterceptor(screenshots),
+                DumpViewsInterceptor(viewHierarchyDumper)
+            )
+        )
+    }
+) {
 
     @get:Rule
 
@@ -61,20 +62,55 @@ class TestMainPage : TestCase(
     @ScreenShooterTest
     @Test
     fun beginTest() = run {
-        step("test1"){
-           ContinuouslyScreen {
-               startButton {
-                   selectTab(1)
-                   isVisible()
-                  // captureScreenshot("First step")
-                   Thread.sleep(2000)
-               }
-           }
-       }
+        step("test1") {
+            ContinuouslyScreen {
+                startButton {
+                    selectTab(1)
+                    isVisible()
+                    // captureScreenshot("First step")
+                    Thread.sleep(2000)
+                }
+            }
+        }
+
+        step("Check RecyclerView Elements") {
+            RecyclerScreen {
+                recycler { scrollTo(10) }
+                Thread.sleep(5000)
+                element0 { isDisplayed() }
+
+                recycler { scrollTo(14) }
+                Thread.sleep(5000)
+                element14 { isDisplayed() }
+
+                recycler { scrollTo(1) }
+                Thread.sleep(5000)
+                element29 { isDisplayed() }
+            }
+        }
+
+
+        step("SelectWish and check isSelected ?") {
+            ClickHeartForSave {
+                recyclerForWish {
+                    childAt<ClickHeartForSave.RecyclerItem>(2) {
+                        wishButton.setChecked(true)
+                        wishButton.isChecked()
+                        Thread.sleep(5000)
+                        wishButton.setChecked(false)
+                        wishButton.isNotChecked()
+                        Thread.sleep(5000)
+                    }
+                }
+
+            }
+        }
+
 
 
         step("Change locale to russian") {
-            device.language.switchInApp(Locale("uz","UZ"))
+            device.language.switchInApp(Locale("uz", "UZ"))
+
             // it's so important to reload current active Activity
             // you can do it recreating the activity or manipulating in the Application through great Kaspresso
             activityScenarioRule.scenario.onActivity { activity ->
@@ -83,16 +119,16 @@ class TestMainPage : TestCase(
             Thread.sleep(2000)
         }
 
-        step("вЫБОР ПОСЛЕДНЕГО ПУНКТА "){
-        ContinuouslyScreen {
-            startButton {
-                selectTab(4)
-                //captureScreenshot("Second step")
-                Thread.sleep(2000)
-                isDisplayed()
+        step("вЫБОР ПОСЛЕДНЕГО ПУНКТА ") {
+            ContinuouslyScreen {
+                startButton {
+                    selectTab(2)
+                    //captureScreenshot("Second step")
+                    Thread.sleep(2000)
+                    isDisplayed()
+                }
             }
         }
-    }
     }
 }
 

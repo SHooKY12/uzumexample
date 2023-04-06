@@ -14,7 +14,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner = "com.kaspersky.kaspresso.runner.KaspressoRunner"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -50,11 +50,10 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation "androidx.test:rules:1.5.0"
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    //эта зависимость для adroidScenarioRule<>()
     androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    androidTestImplementation "com.kaspersky.android-components:kaspresso-allure-support:1.4.2"
+    androidTestImplementation "com.kaspersky.android-components:kaspresso-allure-support:1.5.1"
     androidTestImplementation 'com.kaspersky.android-components:kaspresso:1.5.1'
-//    androidTestImplementation "com.kaspersky.components:kaspresso-extensions-allure:1.4.0"
-//    androidTestImplementation "io.qameta.allure:allure-android:2.16.0"
+    androidTestImplementation "io.qameta.allure:allure-kotlin-android:2.4.0"
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.5.1'
 }

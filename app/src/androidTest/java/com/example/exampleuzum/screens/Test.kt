@@ -11,4 +11,6 @@ object ContinuouslyScreen : KScreen<ContinuouslyScreen>() {
     val startButton = KTabLayout {
         withId(R.id.tableLayoutInMainPage)
     }
+
+
 }
