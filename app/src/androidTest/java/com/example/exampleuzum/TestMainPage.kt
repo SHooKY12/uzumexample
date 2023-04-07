@@ -8,6 +8,7 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.activityScenarioRule
 import androidx.test.rule.GrantPermissionRule
 import com.example.exampleuzum.screens.ClickHeartForSave
+import com.example.exampleuzum.screens.HorizontalBannerScreen
 import com.example.exampleuzum.screens.RecyclerScreen
 import com.kaspersky.components.alluresupport.interceptors.testrun.DumpLogcatTestInterceptor
 import com.kaspersky.components.alluresupport.interceptors.testrun.ScreenshotTestInterceptor
@@ -110,8 +111,7 @@ class TestMainPage : TestCase(
 
         step("Change locale to russian") {
             device.language.switchInApp(Locale("uz", "UZ"))
-
-            // it's so important to reload current active Activity
+              // it's so important to reload current active Activity
             // you can do it recreating the activity or manipulating in the Application through great Kaspresso
             activityScenarioRule.scenario.onActivity { activity ->
                 activity.recreate()
@@ -126,6 +126,18 @@ class TestMainPage : TestCase(
                     //captureScreenshot("Second step")
                     Thread.sleep(2000)
                     isDisplayed()
+                }
+            }
+        }
+
+        step("Swipe Banners") {
+            HorizontalBannerScreen {
+                val RANGE = 0..2
+                recyclerHorizontalBanner {
+                    RANGE.forEach { _ ->
+                        swipeLeft()
+                        Thread.sleep(2000)
+                    }
                 }
             }
         }

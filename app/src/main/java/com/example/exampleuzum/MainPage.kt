@@ -40,7 +40,7 @@ class MainPage : AppCompatActivity() {
     private var listForTablayoutText = listOf<String>("Распродажа", "Популярные", "Новинки")
     private lateinit var viewPage2: ViewPager2
     private lateinit var swiperRefresher: SwipeRefreshLayout
-    private lateinit var tableLayoit: com.google.android.material.tabs.TabLayout
+    private lateinit var tableLayoit: TabLayout
     private var imgList = mutableListOf<ImgForBanner>()
 
     // Адаптер для RecyclerView с баннерами
