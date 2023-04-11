@@ -1,10 +1,6 @@
 package com.example.exampleuzum
 
 import android.Manifest
-import androidx.test.espresso.Espresso.onView
-import androidx.test.espresso.action.ViewActions.click
-import androidx.test.espresso.contrib.RecyclerViewActions
-import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.activityScenarioRule
 import androidx.test.rule.GrantPermissionRule
 import com.example.exampleuzum.screens.ClickHeartForSave
@@ -79,11 +75,9 @@ class TestMainPage : TestCase(
                 recycler { scrollTo(10) }
                 Thread.sleep(5000)
                 element0 { isDisplayed() }
-
                 recycler { scrollTo(14) }
                 Thread.sleep(5000)
                 element14 { isDisplayed() }
-
                 recycler { scrollTo(1) }
                 Thread.sleep(5000)
                 element29 { isDisplayed() }
