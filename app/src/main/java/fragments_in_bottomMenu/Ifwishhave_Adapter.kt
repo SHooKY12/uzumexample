@@ -10,6 +10,7 @@ import coil.size.Scale
 import coil.transform.RoundedCornersTransformation
 import com.example.exampleuzum.R
 import com.example.exampleuzum.databinding.FragmentIfwishhaveProductBinding
+import dataclassesForUse.ListsForSaveSelectedAndLookedProducts
 import dataclassesForUse.Product
 
 
@@ -37,9 +38,9 @@ class Ifwishhave_Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return when (viewType) {
             TYPE_VIEW_HAVE_WISH -> {
-                val view = LayoutInflater.from(parent.context)
+                val viewForWish = LayoutInflater.from(parent.context)
                     .inflate(R.layout.fragment_ifwishhave_product, parent, false)
-                return Wish_Have_Product_ViewHolder(view)
+                return Wish_Have_Product_ViewHolder(viewForWish)
             }
             TYPE_VIEW_HAVE_NOT_WISH -> {
                 val view = LayoutInflater.from(parent.context)
@@ -52,14 +53,16 @@ class Ifwishhave_Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when (holder.itemViewType) {
+
             0 -> {
-                val wish_Have_Not_Product_ViewHolder = holder as Wish_Have_Not_Product_ViewHolder
-                wish_Have_Not_Product_ViewHolder.onBind(products[position], products[position])
-            }
-            else -> {
                 val wish_Have_Product_ViewHolder = holder as Wish_Have_Product_ViewHolder
                 wish_Have_Product_ViewHolder.onBind(products[position])
             }
+            else -> {
+                val wish_Have_Not_Product_ViewHolder = holder as Wish_Have_Not_Product_ViewHolder
+                wish_Have_Not_Product_ViewHolder.onBind(products[position], products[position])
+            }
+
         }
     }
 
@@ -76,6 +79,13 @@ class Ifwishhave_Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                 scale(Scale.FILL)
                 transformations(RoundedCornersTransformation(40f))
             }
+            binding.checkBoxInFrameWithImageViewnInWishFrag.setOnCheckedChangeListener { buttonView, isChecked ->
+                if (!isChecked) {
+                    ListsForSaveSelectedAndLookedProducts.removeModel(model)
+                    setProducts(ListsForSaveSelectedAndLookedProducts.listForSAveCategories)
+                }
+            }
+
             binding.desriotionOfProductInWishFrag.text = model.title
             binding.oldPriceInWishFrag.text = model.price.toString()
             binding.oldPriceInWishFrag.paintFlags =
@@ -85,6 +95,7 @@ class Ifwishhave_Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                 String.format("%s (${model.stock} заказов)", model.rating.toString())
         }
     }
+
     inner class Wish_Have_Not_Product_ViewHolder(itemView: View) :
         RecyclerView.ViewHolder(itemView) {
         fun onBind(modelPopular: Product, modelLastClientSee: Product) {

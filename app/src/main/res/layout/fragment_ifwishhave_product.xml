@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="155dp"
             android:layout_marginTop="-4dp"
+            android:checked="true"
             android:button="@drawable/selector_wishlist_item"
             android:background="@drawable/raund_in_main_imageview_for_buttonimage"
             app:useMaterialThemeColors="false"

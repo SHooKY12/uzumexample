@@ -1,7 +1,6 @@
 package com.example.exampleuzum
 
 import android.graphics.Paint
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -15,6 +14,7 @@ import dataclassesForUse.ListsForSaveSelectedAndLookedProducts
 import dataclassesForUse.Product
 
 class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHolder>() {
+
 
     private var listProducts = mutableListOf<Product>()
 
@@ -39,16 +39,6 @@ class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHo
     }
 
     class MainProductHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val resourceIdForWhiteHeartIcon = itemView.context.resources.getIdentifier(
-            "heart_thin_icon",
-            "drawable",
-            itemView.context.packageName
-        )
-        private val resourceIdForRedHeartIcon = itemView.context.resources.getIdentifier(
-            "iv_in_button_clicked_red_heart",
-            "drawable",
-            itemView.context.packageName
-        )
 
         private val saveClickedForWish = ListsForSaveSelectedAndLookedProducts()
         private var binding = RecyclerForRetrofirBinding.bind(itemView)
@@ -67,19 +57,21 @@ class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHo
                 String.format("%s (${model.stock} заказов)", model.rating.toString())
             binding.checkBoxInFrameWithImageView.setOnCheckedChangeListener { buttonView, isChecked ->
                 if (isChecked) {
-                    saveClickedForWish.listForSAveCategories.add(model)
-                    Toast.makeText(
+                    if (!ListsForSaveSelectedAndLookedProducts.listForSAveCategories.contains(model)) {
+                        ListsForSaveSelectedAndLookedProducts.addModel(model)
+                    }
+                        Toast.makeText(
                         itemView.context,
                         "Checked and senden ${model.title}",
                         Toast.LENGTH_SHORT
                     ).show()
                     Toast.makeText(
                         itemView.context,
-                        "What in List ${saveClickedForWish.listForSAveCategories[0].title}",
+                        "What in List ${ListsForSaveSelectedAndLookedProducts.listForSAveCategories[0].title}",
                         Toast.LENGTH_SHORT
                     ).show()
                 } else {
-                    saveClickedForWish.listForSAveCategories.remove(model)
+                   ListsForSaveSelectedAndLookedProducts.removeModel(model)
                     Toast.makeText(
                         itemView.context,
                         "Unchecked and deleted ${model.title}",
@@ -88,7 +80,7 @@ class FullProductAdapter : RecyclerView.Adapter<FullProductAdapter.MainProductHo
                     Toast.makeText(
                         itemView.context,
                         "What in List Was Deleted ${
-                            saveClickedForWish.listForSAveCategories.getOrNull(1)
+                            ListsForSaveSelectedAndLookedProducts.listForSAveCategories.getOrNull(1)
                         }",
                         Toast.LENGTH_SHORT
                     ).show()

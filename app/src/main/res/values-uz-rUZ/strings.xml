@@ -11,4 +11,5 @@
     <string name="menuIconWish">Istak</string>
     <string name="menuIconBasket">Savat</string>
     <string name="sale_in_button_in_imageview">Katta sotuvlar</string>
+    <string name="myWishesTextInWishFragment">Mening Istaklarim</string>
 </resources>
