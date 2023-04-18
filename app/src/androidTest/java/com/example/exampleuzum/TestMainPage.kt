@@ -14,12 +14,11 @@ import com.kaspersky.kaspresso.interceptors.watcher.testcase.impl.views.DumpView
 import com.kaspersky.kaspresso.kaspresso.Kaspresso
 import com.kaspersky.kaspresso.params.ScreenshotParams
 import com.kaspersky.kaspresso.params.VideoParams
-import com.kaspersky.kaspresso.testcases.api.testcase.TestCase
 import org.junit.Rule
 import org.junit.Test
 import java.util.*
 
-class TestMainPage : TestCase(
+class TestMainPage : com.kaspersky.kaspresso.testcases.api.testcase.TestCase(
     kaspressoBuilder = Kaspresso.Builder.withForcedAllureSupport(
         customize = {
             videoParams = VideoParams(bitRate = 10_000_000)

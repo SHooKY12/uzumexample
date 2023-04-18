@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        style="@style/MyAppBarLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+
+        <!-- CollapsingToolbarLayout -->
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="#FFFFFF"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ImageOfProduct"
+                    android:layout_width="180dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/img2"
+                    tools:src="@drawable/uzum" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxInFrameWithImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="-4dp"
+                    android:background="@drawable/raund_in_main_imageview_for_buttonimage"
+                    android:button="@drawable/selector_wishlist_item"
+                    android:padding="6dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:useMaterialThemeColors="false" />
+
+                <TextView
+                    android:id="@+id/textRassrochkaInMainImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="520dp"
+                    android:background="@drawable/pink_rounded_background_for_image"
+                    android:padding="4dp"
+                    android:text="@string/sale_in_button_in_imageview"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/desriotionOfProduct"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="90dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                tools:text="Футболка Base Unisex, с коротким рукавом и большими подворотниками" />
+
+            <TextView
+                android:id="@+id/textViewRaiting"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="45dp"
+                android:drawablePadding="4dp"
+                android:textSize="12sp"
+                app:drawableLeftCompat="@drawable/star_svgrepo_com__1_"
+                app:drawableStartCompat="@drawable/star_svgrepo_com__1_"
+                tools:text="4.6 (11500 заказов)" />
+
+            <TextView
+                android:id="@+id/textRassrochka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/yellow_rounded_background"
+                android:textColor="#000000"
+                tools:text="2 470 сум/мес" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:id="@+id/oldPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="120dp"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="89 000 сум" />
+
+                <TextView
+                    android:id="@+id/newPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="120dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/oldPrice"
+                    tools:text="19 000 сум" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:background="@drawable/round_button"
+                    android:padding="6dp"
+                    android:src="@drawable/im_shopping_for_utton"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

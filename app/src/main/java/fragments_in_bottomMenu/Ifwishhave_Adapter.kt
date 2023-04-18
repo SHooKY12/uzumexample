@@ -71,7 +71,6 @@ class Ifwishhave_Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     inner class Wish_Have_Product_ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private var binding = FragmentIfwishhaveProductBinding.bind(itemView)
         fun onBind(model: Product) {
-            val newPrice = model.price / 1.12
             binding.ImageOfProductInWishFrag.load(model.thumbnail) {
                 scale(Scale.FILL)
                 transformations(RoundedCornersTransformation(40f))
@@ -80,7 +79,7 @@ class Ifwishhave_Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             binding.oldPriceInWishFrag.text = model.price.toString()
             binding.oldPriceInWishFrag.paintFlags =
                 binding.oldPriceInWishFrag.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
-            binding.newPriceInWishFrag.text = newPrice.toString()
+            binding.newPriceInWishFrag.text = model.price.toString()
             binding.textViewRaitingInWishFrag.text =
                 String.format("%s (${model.stock} заказов)", model.rating.toString())
         }
@@ -90,7 +89,6 @@ class Ifwishhave_Adapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         fun onBind(modelPopular: Product, modelLastClientSee: Product) {
         }
     }
-
 }
 
 
