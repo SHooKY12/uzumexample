@@ -32,4 +32,4 @@
         app:backgroundTint="#2196F3"
         app:useCompatPadding="true"/>
 
-</RelativeLayout>>
+</RelativeLayout>

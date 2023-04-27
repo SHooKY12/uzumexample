@@ -3,6 +3,7 @@ package com.example.exampleuzum
 import android.Manifest
 import androidx.test.ext.junit.rules.activityScenarioRule
 import androidx.test.rule.GrantPermissionRule
+import com.example.exampleuzum.screens.BottomNavTest
 import com.example.exampleuzum.screens.ClickHeartForSave
 import com.example.exampleuzum.screens.HorizontalBannerScreen
 import com.example.exampleuzum.screens.RecyclerScreen
@@ -104,7 +105,7 @@ class TestMainPage : com.kaspersky.kaspresso.testcases.api.testcase.TestCase(
 
         step("Change locale to russian") {
             device.language.switchInApp(Locale("uz", "UZ"))
-              // it's so important to reload current active Activity
+            // it's so important to reload current active Activity
             // you can do it recreating the activity or manipulating in the Application through great Kaspresso
             activityScenarioRule.scenario.onActivity { activity ->
                 activity.recreate()
@@ -121,19 +122,32 @@ class TestMainPage : com.kaspersky.kaspresso.testcases.api.testcase.TestCase(
                     isDisplayed()
                 }
             }
-        }
 
-        step("Swipe Banners") {
-            HorizontalBannerScreen {
-                val RANGE = 0..2
-                recyclerHorizontalBanner {
-                    RANGE.forEach { _ ->
-                        swipeLeft()
-                        Thread.sleep(2000)
+            BottomNavTest {
+                bottomNav {
+                    setSelectedItemWithId("menu_basket")
+                    hasSelectedItemWithId("menu_basket")
+                    Thread.sleep(3000)
+                    setSelectedItemWithId("menu_profile")
+                    hasSelectedItemWithId("menu_profile")
+                    Thread.sleep(3000)
+                    setSelectedItemWithId("menu_main")
+                    hasSelectedItemWithId("menu_main")
+                    Thread.sleep(3000)
+                }
+            }
+
+            step("Swipe Banners") {
+                HorizontalBannerScreen {
+                    val RANGE = 0..2
+                    recyclerHorizontalBanner {
+                        RANGE.forEach { _ ->
+                            swipeLeft()
+                            Thread.sleep(2000)
+                        }
                     }
                 }
             }
         }
     }
 }
-

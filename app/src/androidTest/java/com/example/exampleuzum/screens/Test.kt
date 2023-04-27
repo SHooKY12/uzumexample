@@ -1,6 +1,7 @@
 package com.example.exampleuzum
 
 import com.kaspersky.kaspresso.screens.KScreen
+import io.github.kakaocup.kakao.bottomnav.KBottomNavigationView
 import io.github.kakaocup.kakao.tabs.KTabLayout
 import io.github.kakaocup.kakao.text.KButton
 
