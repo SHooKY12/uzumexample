@@ -75,7 +75,7 @@ class TestMainPage : com.kaspersky.kaspresso.testcases.api.testcase.TestCase(
                 recycler { scrollTo(10) }
                 Thread.sleep(5000)
                 element0 { isDisplayed() }
-                recycler { scrollTo(14) }
+                recycler { scrollTo(34) }
                 Thread.sleep(5000)
                 element14 { isDisplayed() }
                 recycler { scrollTo(1) }

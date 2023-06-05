@@ -1,0 +1,1060 @@
+06-05 16:06:51.950 3887-4697/? I/ActivityManager: Killing 2640:com.example.exampleuzum/u0a352 (adj 0): stop com.example.exampleuzum,finished inst
+06-05 16:06:51.960 3887-3920/? W/libprocessgroup: kill(-2640, 9) failed: No such process
+06-05 16:06:51.964 3887-2762/? W/Binder: Outgoing transactions from this process must be FLAG_ONEWAY
+06-05 16:06:51.964 3887-2762/? W/Binder: java.lang.Throwable
+06-05 16:06:51.964 3887-2762/? W/Binder: 	at android.os.BinderProxy.transact(Binder.java:1127)
+06-05 16:06:51.964 3887-2762/? W/Binder: 	at android.app.IInstrumentationWatcher$Stub$Proxy.instrumentationFinished(IInstrumentationWatcher.java:164)
+06-05 16:06:51.964 3887-2762/? W/Binder: 	at com.android.server.am.InstrumentationReporter$MyThread.run(InstrumentationReporter.java:86)
+06-05 16:06:51.968 2604-2604/? D/AndroidRuntime: Shutting down VM
+06-05 16:06:51.977 3313-3391/? V/APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10352, silenced:1)
+06-05 16:06:51.979 4610-4886/? D/ForegroundUtils: could not check pending caller
+06-05 16:06:51.966 3887-3920/? W/libprocessgroup: kill(-2640, 9) failed: No such process
+06-05 16:06:52.011 3887-3920/? I/chatty: uid=1000(system) ActivityManager identical 2 lines
+06-05 16:06:52.018 3887-3920/? W/libprocessgroup: kill(-2640, 9) failed: No such process
+06-05 16:06:52.021 5901-5901/? I/SKBD: and isTosAccept false
+06-05 16:06:52.024 3887-3920/? W/libprocessgroup: kill(-2640, 9) failed: No such process
+06-05 16:06:52.042 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.042 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.076 3887-3920/? I/chatty: uid=1000(system) ActivityManager identical 6 lines
+06-05 16:06:52.100 3887-3920/? W/libprocessgroup: kill(-2640, 9) failed: No such process
+06-05 16:06:52.107 3512-3512/? I/Zygote: Process 2640 exited due to signal (9)
+06-05 16:06:52.109 3887-3920/? W/libprocessgroup: kill(-2640, 9) failed: No such process
+06-05 16:06:52.112 3887-4197/? I/ActivityManager: DSS on for com.samsung.android.calendar and scale is 1.0
+06-05 16:06:52.115 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.115 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false
+06-05 16:06:52.115 3887-4211/? D/ConnectivityService: , available: true, roaming: false]
+06-05 16:06:52.130 3887-4592/? D/ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.internet.speed.meter.lite,userId = 0
+06-05 16:06:52.130 3887-4592/? D/API test: getContainerInfo: value is 
+06-05 16:06:52.134 3887-4211/? D/SyncManager: userId - 0 auto - true
+06-05 16:06:52.134 3887-4592/? D/ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.internet.speed.meter.lite,userId = 0
+06-05 16:06:52.134 3887-4592/? D/API test: getContainerInfo: value is 
+06-05 16:06:52.139 3887-3920/? I/libprocessgroup: Successfully killed process cgroup uid 10352 pid 2640 in 179ms
+06-05 16:06:52.158 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.159 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.200 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.210 3887-4211/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.221 5901-5901/? I/SKBD: and isTosAccept false
+06-05 16:06:52.236 11336-11336/? I/BgTaskExecutorImpl: (REDACTED) Starting %s background task %s.
+06-05 16:06:52.240 3887-3887/? D/EdgeLightingManager: isCallingUserSupported : callingUserId=0, mUserId=0, isDualAppId=false
+06-05 16:06:52.248 11336-2134/? I/Search.LoginHelperImpl: #refresh()
+06-05 16:06:52.273 11336-2134/? I/Search.LoginHelperImpl: Getting accounts.
+06-05 16:06:52.286 3887-4592/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10191, false, false, DISCONNECTED
+06-05 16:06:52.287 3887-4592/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.287 3887-4592/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3
+06-05 16:06:52.287 3887-4592/? D/ConnectivityService: 887
+06-05 16:06:52.287 3887-4592/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.287 3887-4592/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.403 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160718, SetElapsed=169317905, nowELAPSED=169292250
+06-05 16:06:52.404 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:3 / 20230605T160700, SetElapsed=169299847, nowELAPSED=169292251
+06-05 16:06:52.404 3887-4197/? D/SamsungAlarmManager: setExact Listener (T:2/F:0/AC:false) 20230605T160655 - CU:1000/CP:3887
+06-05 16:06:52.405 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292252
+06-05 16:06:52.410 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292258
+06-05 16:06:52.412 3887-4197/? D/SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20230605T170551 - CU:1000/CP:3887
+06-05 16:06:52.412 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292259
+06-05 16:06:52.421 5901-5901/? I/SKBD: and isTosAccept false
+06-05 16:06:52.440 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160718, SetElapsed=169317905, nowELAPSED=169292287
+06-05 16:06:52.440 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:3 / 20230605T160700, SetElapsed=169299847, nowELAPSED=169292287
+06-05 16:06:52.440 3887-4197/? D/SamsungAlarmManager: setExact Listener (T:2/F:0/AC:false) 20230605T160655 - CU:1000/CP:3887
+06-05 16:06:52.441 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292288
+06-05 16:06:52.441 2298-2333/? W/fb4a.AppInitScheduler|Run:   Finished GraphServiceEagerInit in 4180ms
+06-05 16:06:52.442 2744-2744/? I/ndroid.calenda: The ClassLoaderContext is a special shared library.
+06-05 16:06:52.443 2298-2332/? W/fb4a.AppInitScheduler|Run:   Finished FbMsysImmediateInitializer in 12491ms
+06-05 16:06:52.449 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292297
+06-05 16:06:52.450 3887-4197/? D/SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20230605T170551 - CU:1000/CP:3887
+06-05 16:06:52.450 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292298
+06-05 16:06:52.450 3887-4197/? D/ConnectivityService: Vpn: getActiveNetworkForUidInter
+06-05 16:06:52.450 3887-4197/? D/ConnectivityService: nal: 10191, false, false, DISCONNECTED
+06-05 16:06:52.450 3887-4197/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.451 3887-4197/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.451 3887-4197/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.451 3887-4197/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.455 2298-2315/? I/facebook.katan: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 10.165s
+06-05 16:06:52.494 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160718, SetElapsed=169317905, nowELAPSED=169292341
+06-05 16:06:52.494 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:3 / 20230605T160700, SetElapsed=169299847, nowELAPSED=169292342
+06-05 16:06:52.494 3887-4197/? D/SamsungAlarmManager: setExact Listener (T:2/F:0/AC:false) 20230605T160655 - CU:1000/CP:3887
+06-05 16:06:52.495 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292342
+06-05 16:06:52.498 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292346
+06-05 16:06:52.499 3887-4197/? D/SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20230605T170551 - CU:1000/CP:3887
+06-05 16:06:52.499 3887-4197/? I/SamsungAlarmManager: setLocked to kernel - T:2 / 20230605T160655, SetElapsed=169295462, nowELAPSED=169292347
+06-05 16:06:52.500 3887-4197/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10191, false, false, DISCONNECTED
+06-05 16:06:52.500 3887-4197/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.500 3887-4197/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.500 3887-4197/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.500 3887-4197/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.510 11336-32271/? E/Tracer: Missing trace
+06-05 16:06:52.510 11336-32271/? E/Tracer: java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See http://go/tiktok-tracing for more details.
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.apps.tiktok.tracing.fp.r(PG:3)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.apps.tiktok.tracing.aj.a(PG:1)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.storage.protostore.eg.d(PG:1)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.apps.gsa.shared.v.r.e(PG:5)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.h.a(PG:22)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.notifications.e.g.a.w.b(PG:135)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.notifications.e.g.a.ac.a(PG:29)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.notifications.j.a.d.a(PG:15)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.notifications.j.a.a.c(PG:2)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.notifications.j.a.a.b(PG:1)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.g.a.e(PG:2)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.g.a.c(PG:5)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.g.a.a(PG:2)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.s.a(PG:1)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.gsa.k.a.j.call(PG:2)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.i.af.run(PG:1)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.i.j.run(PG:2)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at com.google.android.libraries.i.q.run(PG:4)
+06-05 16:06:52.510 11336-32271/? E/Tracer: 	at java.lang.Thread.run(Thread.java:764)
+06-05 16:06:52.539 2298-2731/? E/nightwatch-target: /proc/zoneinfo open: errno=13
+06-05 16:06:52.539 2298-2731/? E/nightwatch-target: sysmeminfo parse failed
+06-05 16:06:52.539 3499-3499/? E/audit: type=1400 audit(1685970412.533:9787): avc:  denied  { read } for  pid=2298 comm="AppInit8" name="zoneinfo" dev="proc" ino=4026532458 scontext=u:r:untrusted_app:s0:c135,c256,c512,c768 tcontext=u:object_r:proc_zoneinfo:s0 tclass=file permissive=0 SEPF_SM-G955F_9_0020 audit_filtered
+06-05 16:06:52.539 3499-3499/? E/audit: type=1300 audit(1685970412.533:9787): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=70dd3275c2 a2=0 a3=0 items=0 ppid=3512 pid=2298 auid=4294967295 uid=10135 gid=10135 euid=10135 suid=10135 fsuid=10135 egid=10135 sgid=10135 fsgid=10135 tty=(none) ses=4294967295 comm="AppInit8" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c135,c256,c512,c768 key=(null)
+06-05 16:06:52.539 3499-3499/? E/audit: type=1327 audit(1685970412.533:9787): proctitle="com.facebook.katana"
+06-05 16:06:52.566 3887-3887/? D/EdgeLightingManager: showForNotification : isInteractive=true, isHeadUp=false, color=0, sbn = StatusBarNotification(pkg=com.internet.speed.meter.lite user=UserHandle{0} id=1 tag=null key=0|com.internet.speed.meter.lite|1|null|10215: Notification(channel=show_lockscreen_v2 pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PUBLIC semFlags=0x0 semPriority=0 semMissedCount=0))
+06-05 16:06:52.566 3887-3887/? D/EdgeLightingClientManager: isAvailableEdgeLighting: condition=1 mCondition=3 mIsConnected=false0
+06-05 16:06:52.566 3887-3887/? D/EdgeLightingPolicyManager: isAcceptableApplication:  pkg=com.internet.speed.meter.lite , range=256 , includeAllApp=false , userId=0 , infoRange=0 , infoCategory=0
+06-05 16:06:52.566 3887-3887/? D/EdgeLightingPolicyManager: putNotification tickerText:false,titleText:true,text:true,sub:falsecn= + null
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: Remove previous child data. 0|com.internet.speed.meter.lite|1|null|10215
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|org.telegram.messenger|c:0channel_channels_ia_b9fad_1519945975327564584 ,value= summary : null , child : 1key = 0|org.telegram.messenger|-1210507737|null|10219 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|org.telegram.messenger|c:0channel_private_a7b16_-4682503880133966467 ,value= summary : null , child : 3key = 0|org.telegram.messenger|1275027695|null|10219 , value =  NotificationData { tag= null } ,key = 0|org.telegram.messenger|1538239180|null|10219 , value =  NotificationData { tag= null } ,key = 0|org.telegram.messenger|319651433|null|10219 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|tv.twitch.android.app|12700|5a970940-e966-47a0-9f8b-85259251ed59|10209 ,va
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: lue= summary : null , child : 1key = 0|tv.twitch.android.app|12700|5a970940-e966-47a0-9f8b-85259251ed59|10209 , value =  NotificationData { tag= 5a970940-e966-47a0-9f8b-85259251ed59 } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|org.telegram.messenger|c:0channel_channels_b9fad_4443438733206274763 ,value= summary : null , child : 1key = 0|org.telegram.messenger|-1210507737|null|10219 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|org.telegram.messenger|c:0channel_groups_b9fad_-4941816892761233792 ,value= summary : null , child : 1key = 0|org.telegram.messenger|-415866609|null|10219 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|com.internet.speed.meter.lite|1|null|10215 ,value= summary : null , child : 1key = 0|com.internet.speed.meter.lite|1|null|10215 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|com.google.android.youtube|17|null|10191 ,value= summary : null , child : 1key = 0|com.google.android.youtube|17|null|10191 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|tv.twitch.android.app|12700|35ff4e63-504c-4b99-b8dc-7d77a5f4df56|10209 ,value= summary : null , child : 1key = 0|tv.twitch.android.app|12700|35ff4e63-504c-4b99-b8dc-7d77a5f4df56|10209 , value =  NotificationData { tag= 35ff4e63-504c-4b99-b8dc-7d77a5f4df56 } , } 
+06-05 16:06:52.567 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|com.wssyncmldm|3|null|1000 ,value= summary : null , child : 1key = 0|com.wssyncmldm|3|null|1000 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.568 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|tv.twitch.android.app|12700|26032f83-a2e6-4b38-a8c4-8e9afcd8d4e2|10209 ,value= summary : null , child : 1key = 0|tv.twitch.android.app|12700|26032f83-a2e6-4b38-a8c4-8e9afcd8d4e2|10209 , value =  NotificationData { tag= 26032f83-a2e6-4b38-a8c4-8e9afcd8d4e2 } , } 
+06-05 16:06:52.568 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|tv.twitch.android.app|12700|f4d56911-28fa-42e6-b826-c1b721ee50e8|10209 ,value= summary : null , child : 1key = 0|tv.twitch.android.app|12700|f4d56911-28fa-42e6-b826-c1b721ee50e8|10209 , value =  NotificationData { tag= f4d56911-28fa-42e6-b826-c1b721ee50e8 } , } 
+06-05 16:06:52.568 3887-3887/? D/EdgeLightingPolicyManager.NotificationGroup: group key = 0|org.telegram.messenger|c:0channel_silent_a7b16_-2773897012501558955 ,value= summary : null , child : 3key = 0|org.telegram.messenger|-415866609|null|10219 , value =  NotificationData { tag= null } ,key = 0|org.telegram.messenger|-1560971379|null|10219 , value =  NotificationData { tag= null } ,key = 0|org.telegram.messenger|123242650|null|10219 , value =  NotificationData { tag= null } , } 
+06-05 16:06:52.568 3887-3887/? D/EdgeLightingPolicyManager: isAcceptableApplication:  pkg=com.internet.speed.meter.lite , range=1 , includeAllApp=false , userId=0 , infoRange=0 , infoCategory=0
+06-05 16:06:52.568 3887-3887/? D/EdgeLightingPolicyManager: isAcceptableApplication: getAcceptablePolicy false
+06-05 16:06:52.568 3887-3887/? D/EdgeLightingManager: showForNotificationScreenOn : return false by isAcceptableApplication.
+06-05 16:06:52.603 3887-3887/? W/Looper: Slow dispatch took 338ms main h=com.android.server.notification.NotificationManagerService$WorkerHandler c=com.android.server.notification.NotificationManagerService$PostNotificationRunnable@6adef3d m=0
+06-05 16:06:52.604 3887-3887/? W/Looper: Slow system_server main looper dispatch took 338ms  h=com.android.server.notification.NotificationManagerService$WorkerHandler c=com.android.server.notification.NotificationManagerService$PostNotificationRunnable@6adef3d m=0
+06-05 16:06:52.605 3887-3887/? W/Looper: Slow delivery took 351ms main h=com.android.server.job.JobSchedulerService$JobHandler c=null m=3
+06-05 16:06:52.605 3887-3887/? W/Looper: Slow system_server main looper delivery took 351ms  h=com.android.server.job.JobSchedulerService$JobHandler c=null m=3
+06-05 16:06:52.622 5901-5901/? I/SKBD: and isTosAccept false
+06-05 16:06:52.640 2298-2307/? W/System: A resource failed to call close. 
+06-05 16:06:52.651 5083-5083/? W/Notification4N_GO: NotificationListener.onNotificationPosted-Socket is not available
+06-05 16:06:52.655 5413-5413/? D/Notification.Badge: [valid] onNotificationPosted : StatusBarNotification(pkg=com.internet.speed.meter.lite user=UserHandle{0} id=1 tag=null key=0|com.internet.speed.meter.lite|1|null|10215: Notification(channel=show_lockscreen_v2 pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PUBLIC semFlags=0x0 semPriority=0 semMissedCount=0))
+06-05 16:06:52.655 5413-5413/? D/Notification.Badge: notificationKey : 0|com.internet.speed.meter.lite|1|null|10215, count : 0, this.count : 1
+06-05 16:06:52.657 5413-5413/? D/Notification.Badge: [filtered] shouldBeFilteredOut().mTempRanking.canShowBadge[false], [sbn : StatusBarNotification(pkg=com.internet.speed.meter.lite user=UserHandle{0} id=1 tag=null key=0|com.internet.speed.meter.lite|1|null|10215: Notification(channel=show_lockscreen_v2 pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PUBLIC semFlags=0x0 semPriority=0 semMissedCount=0))]
+06-05 16:06:52.657 5413-5554/? D/Notification.Badge: LauncherModel:onNotificationPosted() : com.internet.speed.meter.lite, count : [0], shouldBeFilteredOut : [true]
+06-05 16:06:52.657 5413-5554/? D/Notification.Badge: updateLauncherIconBadges : 1
+06-05 16:06:52.657 5413-5554/? D/Notification.Badge: badgeItems.size() : 1
+06-05 16:06:52.658 5413-5554/? D/Notification.Badge: updateLauncherIconBadges() cached count : -1
+06-05 16:06:52.658 5413-5554/? D/Notification.Badge: updateLauncherIconBadges() item : [IconInfo(title=Internet Speed Meter Lite intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.internet.speed.meter.lite/.MainActivity (has extras) } id=62 type=0 container=-102 screen=1 cellX=1 cellY=1 spanX=1 spanY=1 rank=5 hidden=0 dropPos=null user=UserHandle{0} screenType=0)], mShowBadge : [false], item.mBadgeCount : [0]
+06-05 16:06:52.664 5413-5413/? D/HomeContainer:  onBadgeBindingCompleted
+06-05 16:06:52.664 5413-5413/? D/AppsContainer:  onBadgeBindingCompleted
+06-05 16:06:52.664 5413-5413/? D/AppsPagedViewWrapper: updateBadgeItemsInPagedView update no items, isWorkspace item : true
+06-05 16:06:52.664 5413-5413/? D/RecommendedView: updateBadgeItems: [IconInfo(title=Internet Speed Meter Lite intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.internet.speed.meter.lite/.MainActivity (has extras) } id=62 type=0 container=-102 screen=1 cellX=1 cellY=1 spanX=1 spanY=1 rank=5 hidden=0 dropPos=null user=UserHandle{0} screenType=0)]
+06-05 16:06:52.672 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:52.683 4257-4257/? I/chatty: uid=10045(com.samsung.android.app.aodservice) com.android.systemui identical 1 line
+06-05 16:06:52.684 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:52.696 2298-2323/? W/fb4a.AppInitScheduler|Run:   Waiting on InitLacrimaLaterInit for 12427ms...
+06-05 16:06:52.697 3887-3887/? W/Looper: Drained
+06-05 16:06:52.699 2298-2686/? W/fb4a.MultiSignalANRDetectorLacrima: Pausing error state checks
+06-05 16:06:52.723 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:52.737 2298-2358/? D/TelephonyManager: getAllCellInfo : Caller (PID / UID / TID): 2298 / 10135 / 2358
+06-05 16:06:52.739 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:52.809 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375
+06-05 16:06:52.809 3887-6266/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.810 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.739 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:52.810 3887-6266/? D/WifiPermissionsUtil: canAccessScanResults: pkgName = com.google.android.youtube, uid = 10191
+06-05 16:06:52.812 3887-6266/? D/WifiPermissionsUtil: Denied: canCallingUidAccessLocation = false, canAppPackageUseLocation = false
+06-05 16:06:52.813 3887-4571/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375
+06-05 16:06:52.813 3887-4571/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.813 3887-4571/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.813 3887-4571/? D/ConnectivityService: [ 06-05
+06-05 16:06:52.813 3887-4571/? D/ConnectivityService:  16:06:52.814  3887: 4571 D/ConnectivityService ]
+06-05 16:06:52.813 3887-4571/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375
+06-05 16:06:52.814 3887-4571/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.815 3887-4571/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.815 3887-4571/? D/WifiPermissionsUtil: canAccessScanResults: pkgName = com.google.android.youtube, uid = 10191
+06-05 16:06:52.816 3887-4571/? D/WifiPermissionsUtil: Denied: canCallingUidAccessLocation = false, canAppPackageUseLocation = false
+06-05 16:06:52.818 3887-4571/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375
+06-05 16:06:52.818 3887-4571/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.819 3887-4571/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.822 3887-4571/? D/WifiPermissionsUtil: canAccessScanResults: pkgName = com.google.android.youtube, uid = 10191
+06-05 16:06:52.823 5901-5901/? I/SKBD: and isTosAccept false
+06-05 16:06:52.823 3887-4571/? D/WifiPermissionsUtil: Denied: canCallingUidAccessLocation = false, canAppPackageUseLocation = false
+06-05 16:06:52.826 3887-4571/? D/WifiPermissionsUtil: canAccessScanResults: pkgName = com.google.android.youtube, uid = 10191
+06-05 16:06:52.827 3887-4086/? D/ConnectivityService: updateCapabilities: oldCap = [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED Unwanted:  LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -74 SSID: "MGTS_GPON5_7985"], newCap = [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&NOT_CONGESTED Unwanted:  LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -75 SSID: "MGTS_GPON5_7985"]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService: notifyType CALLBACK_CAP_CHANGED for NetworkAgentInfo [WIFI () - 603]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted: ] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=3, [] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=3, [] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=6, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted: ] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=6, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted: ] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=7, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=7, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=8, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=8, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.828 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10148, false, false, DISCONNECTED
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=9, [ Transports: WIFI Capabilities: NOT_VPN Unwanted: ] ]
+06-05 16:06:52.828 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10148, vpn=DISCONNECTED,false
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=9, [ Transports: WIFI Capabilities: NOT_VPN Unwanted: ] ]
+06-05 16:06:52.828 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10124, false, false, DISCONNECTED
+06-05 16:06:52.828 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.828 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887
+06-05 16:06:52.828 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=10, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10045] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=10, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10045] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10031, false, false, DISCONNECTED
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=11, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&VALIDATED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=11, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&VALIDATED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=12, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=12, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=13, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=13, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=14, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=14, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 5017, false, false, DISCONNECTED
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=15, [] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10328, false, false, DISCONNECTED
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10328, vpn=DISCONNECTED,false
+06-05 16:06:52.829 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=15, [] ]
+06-05 16:06:52.829 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10142, false, false, DISCONNECTED
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=18, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=18, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 1000] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=19, [ Transports: CELLULAR|WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Unwanted:  Uid: 10197] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=19, [ Transports: CELLULAR|WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Unwanted:  Uid: 10197] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10203, false, false, DISCONNECTED
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10203, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=20, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10297] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10204, false, false, DISCONNECTED
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10204, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=20, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10297] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10096, false, false, DISCONNECTED
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=25, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10103] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=25, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10103] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10156, false, false, DISCONNECTED
+06-05 16:06:52.830 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=1374, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10031] ]
+06-05 16:06:52.830 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=1374, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=1375, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10224, false, false, DISCONNECTED
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10224, vpn=DISCONNECTED,false
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=1375, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 1000, false, false, DISCONNECTED
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ REQUEST id=1376, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10191, false, false, DISCONNECTED
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ REQUEST id=1376, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=1377, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=1377, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=1378, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887
+06-05 16:06:52.831 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.831 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=1378, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=1379, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10206, false, false, DISCONNECTED
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=1379, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10206, vpn=DISCONNECTED,false
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 3887
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=1400, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10206, vpn=DISCONNECTED,false
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=1400, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=1561, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=1561, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=1562, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=1562, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10219, false, false, DISCONNECTED
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10219, vpn=DISCONNECTED,false
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=1769, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10219, pid: 3887
+06-05 16:06:52.832 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10219, vpn=DISCONNECTED,false
+06-05 16:06:52.832 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=1769, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10031] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10219, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=1937, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10213, false, false, DISCONNECTED
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=1937, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10213, vpn=DISCONNECTED,false
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10213, pid: 3887
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10213, vpn=DISCONNECTED,false
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=1938, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10213, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=1938, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=1939, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=1939, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10253, false, false, DISCONNECTED
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10253, vpn=DISCONNECTED,false
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=1946, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10057] ]
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService: s
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService: ending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=1946, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10057] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10253, pid: 3887
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10253, vpn=DISCONNECTED,false
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10253, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.833 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=1947, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10057] ]
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.833 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=1947, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10057] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10208, false, false, DISCONNECTED
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10208, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2003, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10224, false, false, DISCONNECTED
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10224, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2003, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=2004, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=2004, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10096] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10204, false, false, DISCONNECTED
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10204, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2064, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2064, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10236, false, false, DISCONNECTED
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10236, vpn=DISCONNECTED,false
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2066, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.834 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2066, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.834 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10225, false, false, DISCONNECTED
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2067, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10225, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2067, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10236, false, false, DISCONNECTED
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10236, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=2068, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=2068, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2069, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2069, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10208, false, false, DISCONNECTED
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10208, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2083, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2083, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10206] ]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.835 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.835 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2085, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.836 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2085, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.836 3887-4697/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 25258
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.836 3887-4697/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10054, false, false, DISCONNECTED
+06-05 16:06:52.836 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10054, vpn=DISCONNECTED,false
+06-05 16:06:52.836 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=2086, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.836 3887-4697/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 25258, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.836 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=2086, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.836 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 25365
+06-05 16:06:52.836 3887-6266/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.836 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2088, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.836 3887-6009/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 11336
+06-05 16:06:52.836 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2088, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.837 3887-6009/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.837 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 25365, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=2089, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=2089, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.837 3887-6009/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 11336, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2096, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2096, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10124] ]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10219] ]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10219] ]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2106, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.837 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2106, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.837 3887-3898/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 11336
+06-05 16:06:52.837 3887-3898/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.838 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=2107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.838 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=2107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.838 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.838 3887-3898/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 11336, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.838 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.838 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.839 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375
+06-05 16:06:52.839 3887-6266/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.839 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 28375, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.840 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887
+06-05 16:06:52.840 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10054, vpn=DISCONNECTED,false
+06-05 16:06:52.840 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.841 3887-6009/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 24560
+06-05 16:06:52.841 3887-6009/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10206, vpn=DISCONNECTED,false
+06-05 16:06:52.841 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10318, false, false, DISCONNECTED
+06-05 16:06:52.841 3887-6009/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 24560, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.841 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10318, vpn=DISCONNECTED,false
+06-05 16:06:52.841 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887
+06-05 16:06:52.841 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.842 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.842 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.842 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.842 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.842 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.842 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.843 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.843 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.843 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.844 3887-4400/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10103, false, false, DISCONNECTED
+06-05 16:06:52.844 3887-4400/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10103, vpn=DISCONNECTED,false
+06-05 16:06:52.845 3887-6009/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 25395
+06-05 16:06:52.845 3887-6009/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.845 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTE
+06-05 16:06:52.845 3887-4074/? D/ConnectivityService: D/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.845 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10219, pid: 3887
+06-05 16:06:52.849 6077-6220/? I/Carnival-NetworkErrorManager(): onAvailable
+06-05 16:06:52.851 6077-6220/? I/Carnival-NetworkErrorManager(): onNetworkRecovered
+06-05 16:06:52.851 6077-6220/? I/Carnival-SamsungAccountManager(): onNetworkRecovered
+06-05 16:06:52.873 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:52.877 3887-4400/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 24560
+06-05 16:06:52.877 3887-4400/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10206, vpn=DISCONNECTED,false
+06-05 16:06:52.880 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.880 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.880 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10057, pid: 3887
+06-05 16:06:52.880 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10057, vpn=DISCONNECTED,false
+06-05 16:06:52.881 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10057, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.881 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.881 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.881 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.882 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10218, false, false, DISCONNECTED
+06-05 16:06:52.882 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10218, vpn=DISCONNECTED,false
+06-05 16:06:52.882 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10067, false, false, DISCONNECTED
+06-05 16:06:52.882 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10067, vpn=DISCONNECTED,false
+06-05 16:06:52.882 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10067, pid: 3887
+06-05 16:06:52.882 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10067, vpn=DISCONNECTED,false
+06-05 16:06:52.883 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10067, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.883 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10204, false, false, DISCONNECTED
+06-05 16:06:52.883 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10204, vpn=DISCONNECTED,false
+06-05 16:06:52.885 3887-4400/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 24560, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.885 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2142, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10329] ]
+06-05 16:06:52.885 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2143, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10329] ]
+06-05 16:06:52.885 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2143, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10329] ]
+06-05 16:06:52.887 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2144, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10158] ]
+06-05 16:06:52.888 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2144, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10158] ]
+06-05 16:06:52.889 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2145, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10158] ]
+06-05 16:06:52.889 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2145, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10158] ]
+06-05 16:06:52.889 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ LISTEN id=2146, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10158] ]
+06-05 16:06:52.890 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ LISTEN id=2146, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10158] ]
+06-05 16:06:52.891 3887-4086/? D/ConnectivityService:  sending notification for NetworkRequest [ TRACK_DEFAULT id=2148, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.891 3887-4086/? D/ConnectivityService: sending notification CALLBACK_CAP_CHANGED for NetworkRequest [ TRACK_DEFAULT id=2148, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Unwanted:  Uid: 10191] ]
+06-05 16:06:52.895 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.895 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.895 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.895 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.896 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.896 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.896 3887-4074/? D/ConnectivityService: [ 06-05 16:06:52.896  388
+06-05 16:06:52.896 3887-4074/? D/ConnectivityService: 7: 4074 D/ConnectivityService ]
+06-05 16:06:52.896 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.896 3887-4697/? D/ConnectivityService: filterNetworkStateForUid() uid: 10158, pid: 1192
+06-05 16:06:52.896 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.896 3887-4697/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.896 3887-4697/? D/ConnectivityService: filterNetworkStateForUid() uid: 10158, pid: 1192, networkInfo: [type: WIFI[], state: DISCONNECTED/BLOCKED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.896 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.897 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.897 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.897 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.897 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.898 3887-4197/? D/ConnectivityService: filterNetworkStateForUid() uid: 10158, pid: 1192
+06-05 16:06:52.898 3887-4197/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.899 3887-4197/? D/ConnectivityService: filterNetworkStateForUid() uid: 10158, pid: 1192, networkInfo: [type: WIFI[], state: DISCONNECTED/BLOCKED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.903 3887-4197/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.903 3887-4197/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.879 4257-4257/? I/chatty: uid=10045(com.samsung.android.app.aodservice) com.android.systemui identical 1 line
+06-05 16:06:52.879 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:52.903 4257-4257/? D/swipe: !isFreemformEnabled
+06-05 16:06:52.904 3887-3898/? D/ConnectivityService: filterNetworkStateForUid() uid: 10329, pid: 1726
+06-05 16:06:52.904 3887-3898/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10329, vpn=DISCONNECTED,false
+06-05 16:06:52.904 3887-3898/? D/ConnectivityService: filterNetworkStateForUid() uid: 10329, pid: 1726, networkInfo: [type: WIFI[], state: DISCONNECTED/BLOCKED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.906 3887-4571/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10329, false, false, DISCONNECTED
+06-05 16:06:52.906 3887-4571/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10329, vpn=DISCONNECTED,false
+06-05 16:06:52.897 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.910 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.910 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.910 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.910 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.911 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10253, pid: 3887
+06-05 16:06:52.911 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10253, vpn=DISCONNECTED,false
+06-05 16:06:52.911 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10253, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.911 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887
+06-05 16:06:52.911 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10054, vpn=DISCONNECTED,false
+06-05 16:06:52.912 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.912 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10135, false, false, DISCONNECTED
+06-05 16:06:52.912 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10135, vpn=DISCONNECTED,false
+06-05 16:06:52.912 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887
+06-05 16:06:52.912 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.913 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.913 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.913 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.913 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.913 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.913 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.914 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.914 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.914 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.917 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.917 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887
+06-05 16:06:52.917 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10054, vpn=DISCONNECTED,false
+06-05 16:06:52.918 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.918 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.918 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.918 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.918 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10329, false, false, DISCONNECTED
+06-05 16:06:52.919 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10329, vpn=DISCONNECTED,false
+06-05 16:06:52.919 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10311, false, false, DISCONNECTED
+06-05 16:06:52.919 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10311, vpn=DISCONNECTED,false
+06-05 16:06:52.919 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10329, false, false, DISCONNECTED
+06-05 16:06:52.920 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10329, vpn=DISCONNECTED,false
+06-05 16:06:52.920 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10268, false, false, DISCONNECTED
+06-05 16:06:52.920 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10268, vpn=DISCONNECTED,false
+06-05 16:06:52.920 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10228, false, false, DISCONNECTED
+06-05 16:06:52.920 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10228, vpn=DISCONNECTED,false
+06-05 16:06:52.921 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.921 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.921 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.921 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.921 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.922 3887-3898/? D/ConnectivityService: filterNetworkStateForUid() uid: 10329, pid: 1726
+06-05 16:06:52.922 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.922 3887-3898/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10329, vpn=DISCONNECTED,false
+06-05 16:06:52.922 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.922 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.922 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.923 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.923 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10221, false, false, DISCONNECTED
+06-05 16:06:52.923 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10221, vpn=DISCONNECTED,false
+06-05 16:06:52.923 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10106, false, false, DISCONNECTED
+06-05 16:06:52.923 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10106, vpn=DISCONNECTED,false
+06-05 16:06:52.924 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887
+06-05 16:06:52.924 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10106, vpn=DISCONNECTED,false
+06-05 16:06:52.924 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.924 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.924 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.925 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.925 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.925 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.925 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.925 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.925 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.926 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.926 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10198, pid: 3887
+06-05 16:06:52.926 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10198, vpn=DISCONNECTED,false
+06-05 16:06:52.926 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10198, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.926 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887
+06-05 16:06:52.927 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10106, vpn=DISCONNECTED,false
+06-05 16:06:52.927 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.927 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.928 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.929 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.929 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.929 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.929 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.929 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.930 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.939 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887
+06-05 16:06:52.939 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10136, vpn=DISCONNECTED,false
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10204, false, false, DISCONNECTED
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10204, vpn=DISCONNECTED,false
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10225, false, false, DISCONNECTED
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10225, vpn=DISCONNECTED,false
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10135, false, false, DISCONNECTED
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10135, vpn=DISCONNECTED,false
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10054, vpn=DISCONNECTED,false
+06-05 16:06:52.940 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10135, false, false, DISCONNECTED
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10135, vpn=DISCONNECTED,false
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.941 3887-3898/? D/ConnectivityService: filterNetworkStateForUid() uid: 10329, pid: 1726, networkInfo: [type: WIFI[], state: DISCONNECTED/BLOCKED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10210, false, false, DISCONNECTED
+06-05 16:06:52.941 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10210, vpn=DISCONNECTED,false
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: [ 06-05 16:06:52.942  3887: 4074 D/Con
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: nectivityService ]
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10054, vpn=DISCONNECTED,false
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10054, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.942 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.943 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10209, false, false, DISCONNECTED
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10209, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10209, pid: 3887
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10209, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10209, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10218, false, false, DISCONNECTED
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10218, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10218, false, false, DISCONNECTED
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10218, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.944 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10213, pid: 3887
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10213, vpn=DISCONNECTED,false
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10213, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10218, false, false, DISCONNECTED
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10218, vpn=DISCONNECTED,false
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10236, false, false, DISCONNECTED
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10236, vpn=DISCONNECTED,false
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10328, false, false, DISCONNECTED
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10328, vpn=DISCONNECTED,false
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10087, false, false, DISCONNECTED
+06-05 16:06:52.945 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10087, vpn=DISCONNECTED,false
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: [ 06-05 16:06:52.946
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService:   3887: 4074 D/ConnectivityService ]
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 5017, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10332, false, false, DISCONNECTED
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10332, vpn=DISCONNECTED,false
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.946 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10106, vpn=DISCONNECTED,false
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10135, false, false, DISCONNECTED
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10135, vpn=DISCONNECTED,false
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.947 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.948 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10203, false, false, DISCONNECTED
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10203, vpn=DISCONNECTED,false
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10106, vpn=DISCONNECTED,false
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10106, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10236, false, false, DISCONNECTED
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10236, vpn=DISCONNECTED,false
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887
+06-05 16:06:52.949 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10124, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10124, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10332, false, false, DISCONNECTED
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10332, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10168, false, false, DISCONNECTED
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10168, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10168, pid: 3887
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10168, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10168, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.950 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10224, false, false, DISCONNECTED
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10224, vpn=DISCONNECTED,false
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887
+06-05 16:06:52.951 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10136, vpn=DISCONNECTED,false
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 3887
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10206, vpn=DISCONNECTED,false
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10206, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10136, vpn=DISCONNECTED,false
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10057, pid: 3887
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10057, vpn=DISCONNECTED,false
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10057, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10165, false, false, DISCONNECTED
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10165, vpn=DISCONNECTED,false
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887
+06-05 16:06:52.952 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10136, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10136, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10158, false, false, DISCONNECTED
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10158, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10204, false, false, DISCONNECTED
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10204, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10236, false, false, DISCONNECTED
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10236, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10057, pid: 3887
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10057, vpn=DISCONNECTED,false
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10057, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.953 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10311, false, false, DISCONNECTED
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10311, vpn=DISCONNECTED,false
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.954 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10135, false, false, DISCONNECTED
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10135, vpn=DISCONNECTED,false
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10218, false, false, DISCONNECTED
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10218, vpn=DISCONNECTED,false
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.968 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10224, false, false, DISCONNECTED
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10224, vpn=DISCONNECTED,false
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10087, false, false, DISCONNECTED
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10087, vpn=DISCONNECTED,false
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10253, pid: 3887
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10253, vpn=DISCONNECTED,false
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10253, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10328, false, false, DISCONNECTED
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10328, vpn=DISCONNECTED,false
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.969 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10133, false, false, DISCONNECTED
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10133, vpn=DISCONNECTED,false
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10224, false, false, DISCONNECTED
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10224, vpn=DISCONNECTED,false
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10191, vpn=DISCONNECTED,false
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10191, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.970 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10332, false, false, DISCONNECTED
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10332, vpn=DISCONNECTED,false
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10142, vpn=DISCONNECTED,false
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10142, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10268, false, false, DISCONNECTED
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10268, vpn=DISCONNECTED,false
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10202, false, false, DISCONNECTED
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10202, vpn=DISCONNECTED,false
+06-05 16:06:52.971 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10156, vpn=DISCONNECTED,false
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10156, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10219, pid: 3887
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10219, vpn=DISCONNECTED,false
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10219, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10031, vpn=DISCONNECTED,false
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 10031, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887
+06-05 16:06:52.972 3887-4074/? D/ConnectivityService: filterNetworkStateForUid() uid: 1000, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.974 3887-4400/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10096, false, false, DISCONNECTED
+06-05 16:06:52.974 3887-4400/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.974 3887-4400/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:52.975 3887-4400/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:52.975 3887-4400/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+06-05 16:06:52.986 2744-2744/? I/CapsuleProvider_1.0.9: onCreate
+06-05 16:06:53.024 5901-5901/? I/SKBD: and isTosAccept false
+06-05 16:06:53.091 2298-2334/? W/fb4a.AppInitScheduler|Run:   Finished InitLacrimaLaterInit in 12822ms
+06-05 16:06:53.091 2298-2334/? W/fb4a.AppInitScheduler|Run: Running FixieProcessState
+06-05 16:06:53.117 4257-4257/? D/SecStatusBarWifiView: updateState: WifiIconState(resId=2131232625, visible=true, activityId=2131232635)
+06-05 16:06:53.120 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:53.123 4257-4257/? I/chatty: uid=10045(com.samsung.android.app.aodservice) com.android.systemui identical 1 line
+06-05 16:06:53.124 4257-4257/? I/StackScroller: ADJUST STACK.TRANSLATION
+06-05 16:06:53.131 2744-2744/? I/CapsuleProvider_1.0.9: releasing initialize wait lock.
+06-05 16:06:53.148 3887-6009/? D/ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.internet.speed.meter.lite,userId = 0
+06-05 16:06:53.148 3887-6009/? D/API test: getContainerInfo: value is 
+06-05 16:06:53.150 2744-2794/? D/SamsungAnalytics201007: [Validation] dma pkg:531401000
+06-05 16:06:53.150 2744-2794/? D/SamsungAnalytics201007: [ 06-05 16:
+06-05 16:06:53.150 2744-2794/? D/SamsungAnalytics201007: 06:53.152  3887: 6009 D/ApplicationPolicy ]
+06-05 16:06:53.150 2744-2794/? D/SamsungAnalytics201007: isStatusBarNotificationAllowedAsUser: packageName = com.internet.speed.meter.lite,userId = 0
+06-05 16:06:53.152 3887-6009/? D/API test: getContainerInfo: value is 
+06-05 16:06:53.155 11336-2125/? E/Tracer: Missing trace
+06-05 16:06:53.155 11336-2125/? E/Tracer: java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See http://go/tiktok-tracing for more details.
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.apps.tiktok.tracing.fp.r(PG:3)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.apps.tiktok.tracing.aj.a(PG:1)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.storage.protostore.eg.d(PG:1)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.apps.gsa.shared.v.r.e(PG:5)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.h.a(PG:22)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.notifications.e.g.a.w.b(PG:135)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.notifications.e.g.a.ac.a(PG:29)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.notifications.j.a.d.a(PG:15)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.notifications.j.a.a.c(PG:2)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.notifications.j.a.a.b(PG:1)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.g.a.e(PG:2)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.g.a.c(PG:5)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.g.a.a(PG:2)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.apps.gsa.staticplugins.chime.s.a(PG:1)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.gsa.k.a.j.call(PG:2)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.i.af.run(PG:1)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.i.j.run(PG:2)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at com.google.android.libraries.i.q.run(PG:4)
+06-05 16:06:53.155 11336-2125/? E/Tracer: 	at java.lang.Thread.run(Thread.java:764)
+06-05 16:06:53.157 2744-2794/? D/SamsungAnalytics201007: cf feature is supported
+06-05 16:06:53.163 2744-2744/? D/SamsungCalendarNoti: [NotificationActionReceiver] onReceive() action : android.accounts.LOGIN_ACCOUNTS_CHANGED
+06-05 16:06:53.166 2744-2744/? D/SamsungCalendarNoti: [NotificationActionReceiver] Intent { act=android.accounts.LOGIN_ACCOUNTS_CHANGED flg=0x5000010 cmp=com.samsung.android.calendar/com.samsung.android.app.calendarnotification.NotificationActionReceiver }
+06-05 16:06:53.206 3887-4069/? D/WifiTrafficPoller: TrafficStats TxPkts=2597292 RxPkts=8738880 TxBytes=494692362 RxBytes=11391537040 , Foreground uid=10089 pkgName=com.sec.android.app.launcher TxPackets=0 RxPackets=0 TxBytes=0 RxBytes=0
+06-05 16:06:53.209 2744-2794/? D/SamsungAnalytics201007: do not send setting < 7days
+06-05 16:06:53.220 2744-2794/? D/SamsungAnalytics201007: [Tracker] Tracker start:2.01.007DLC
+06-05 16:06:53.224 5901-5901/? I/SKBD: and isTosAccept false
+06-05 16:06:53.248 2298-2334/? W/fb4a.Fixie: Initialize ProcessStatePolling
+06-05 16:06:53.249 2298-2334/? W/fb4a.AppInitScheduler|Run:   Finished FixieProcessState in 158ms
+06-05 16:06:53.249 2298-2334/? W/fb4a.AppInitScheduler|Run: All work finished.
+06-05 16:06:53.257 3887-3887/? D/EdgeLightingManager: isCallingUserSupported : callingUserId=0, mUserId=0, isDualAppId=false
+06-05 16:06:53.258 2744-2794/? D/SamsungAnalytics201007: newThread on Executor
+06-05 16:06:53.269 2744-2799/? D/SamsungCalendarNoti: [NotificationMainTask] processMessage() received action is android.accounts.LOGIN_ACCOUNTS_CHANGED
+06-05 16:06:53.269 2744-2799/? D/SamsungCalendarNoti: alarm_time : 0
+06-05 16:06:53.269 2744-2799/? D/SamsungCalendarNoti: [NotificationMainTask] android.accounts.LOGIN_ACCOUNTS_CHANGED
+06-05 16:06:53.302 3887-6266/? D/JobServiceContext: sendStopMessageLocked stop reason: job rescheduled by app
+06-05 16:06:53.303 3887-6266/? D/ConnectivityService: Vpn: getActiveNetworkForUidInternal: 10096, false, false, DISCONNECTED
+06-05 16:06:53.303 3887-6266/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:53.304 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887
+06-05 16:06:53.304 3887-6266/? D/ConnectivityService: [ 06-05 16:06:53.305  3887: 6266 D
+06-05 16:06:53.304 3887-6266/? D/ConnectivityService: /ConnectivityService ]
+06-05 16:06:53.304 3887-6266/? D/ConnectivityService: isNetworkWithLinkPropertiesBlocked: uid=10096, vpn=DISCONNECTED,false
+06-05 16:06:53.306 3887-6266/? D/ConnectivityService: filterNetworkStateForUid() uid: 10096, pid: 3887, networkInfo: [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
