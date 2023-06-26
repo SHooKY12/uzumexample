@@ -16,4 +16,4 @@
 local.properties
 .idea
 /.config/build
-/config/build/
+config/build/
