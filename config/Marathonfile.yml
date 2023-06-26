@@ -3,8 +3,8 @@ outputDir: "build/reports/marathon"
 debug: true
 vendorConfiguration:
   type: "Android"
-  applicationApk: "/home/user/StudioProjects/app/build/outputs/apk/debug/app-debug.apk"
-  testApplicationApk: "/home/user/StudioProjects/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
+  applicationApk: "/home/user/uzumexample/app/build/outputs/apk/debug/app-debug.apk"
+  testApplicationApk: "/home/user/uzumexample/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
   androidSdk: "/home/user/Android/Sdk"
   autoGrantPermission: true
   testApplicationPmClear: true
