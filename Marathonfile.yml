@@ -1,5 +1,5 @@
 name: "My application"
-outputDir: "build/reports/marathon"
+outputDir: "config/build/reports/marathon"
 debug: true
 vendorConfiguration:
   type: "Android"
